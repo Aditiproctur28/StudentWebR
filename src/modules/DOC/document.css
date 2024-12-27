@@ -1,0 +1,16 @@
+.doc-card-main-div{
+      background-color:   #Fafafa; 
+      /* border: 1px solid black; */
+}
+.doc-card-container{
+     display:inline-block;
+     width:98%;
+     /* height: fit; */
+     justify-content: left;
+     border-radius: 3px;
+     background-color: #FFFFFF;
+     margin-top: 2%;  
+     margin-left: 1%;
+   /* border: 1px solid black; */
+     overflow-x: auto;
+} 

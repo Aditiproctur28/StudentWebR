@@ -1,0 +1,461 @@
+.score-card-container{
+    /* border:1px solid black; */
+    height:fit-content;
+    background: #fafafa;
+    width:100%;
+    overflow-x:auto;
+  
+
+}
+.score-card-container{
+    
+   min-width: 100%px;
+   
+    /* overflow-x: auto; */
+
+}
+
+.exam-score{
+    margin-top: 4px;
+    
+    /* border:1px solid green; */
+    height:fit-content;
+    background: #FFFFFF;
+
+    
+}
+.exam-score2{
+    margin-top: 6px;
+    margin-bottom: 30px;
+    /* border:1px solid green; */
+    height:fit-content;
+    background: #FFFFFF;
+
+}
+.cloud{
+    /* border:1px solid black; */
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.exam-score-div{
+    /* border:1px solid red; */
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #454545;
+    padding: 8px;
+    justify-content: space-between;
+}
+.exam-score-div2{
+    display: flex;
+    margin-top: 5px;
+  
+}
+
+.dot-exam{
+    height:10px;
+    width: 10px;
+    /* border:1px solid black; */
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-right: 7px;
+    background-color: blue;
+}
+
+.details-exam{
+    /* border:1px solid lawngreen; */
+    margin-left:20px;
+    margin-right:10px;
+    margin-bottom: 13px;
+  
+    /* height: 90px; */
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rank-div{
+    border: 1px solid #EEEEEE;
+    position: relative;
+   width:12%;
+   height:75px;
+}
+.rank-div-head{
+
+    font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #454545;
+
+}
+.rank-heading{
+    position: absolute;
+    top:0;
+    /* border:1px solid black; */
+    padding: 5px;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+margin-left: 4px;
+color: #454545;
+}
+
+.rank-partition{
+    height:1px;
+    width: 20px;
+    border:1px solid orange;
+    background-color: orange;
+}
+.image-div-exam{
+    /* border:1px solid blue; */
+    /* padding: 4px; */
+    margin-left: 4px;
+}
+.image-div2-exam{
+    /* border:1px solid blue; */
+    padding: 4px;
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 140px;
+    position: absolute;
+    bottom:0;
+  
+}
+.image-heading-exam{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.01em;
+
+color: #454545;
+
+}
+.image-heading2-exam{
+   
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+/* font-size: 1.5vw; */
+line-height: 16px;
+/* identical to box height, or 80% */
+/* border:1px solid blue; */
+letter-spacing: 0.01em;
+color: #454545;
+
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+
+}
+.ghadi{
+    margin-right: 5px;
+}
+
+.table-div{
+    /* border:1px solid purple; */
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right:12px;
+    overflow-x: auto;
+    /* width: 98%; */
+}
+
+.heading-table{
+    /* border:1px solid red; */
+    justify-content: space-between;
+
+}
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+
+  #customers tr:nth-child(odd){background-color: #E0F8FF;}
+
+   #customers th {
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }  
+
+  #customers td{
+    padding: 20px;
+
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: #EDEDED;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    
+    color: #454545;
+
+  }
+
+  #customers td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #454545;
+  }
+
+  .initial-name{
+     
+            display: flex;
+            justify-content: space-between;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            /* identical to box height, or 138% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            color: #454545;
+            padding: 12px;
+            margin-left: 20px;
+            width: 85%;
+
+  }
+
+  .total-marks{
+      /* border:1px solid hotpink; */
+      display: flex;
+      height: 35px;
+  }
+
+  .marks-exam{
+      /* border:1px solid blue; */
+      width: 79%;
+      display: flex;
+      justify-content: flex-end;
+      background: #FFEEDE;
+         
+  }
+  .score-exam{
+      /* border:1px solid black; */
+      font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+letter-spacing: 0.01em;
+margin-top: 5px;
+color: #454545;
+padding: 4px;
+margin-right: 100px;
+  }
+
+  .marks-got{
+      /* border:1px solid yellow; */
+      width: 21%;
+      text-align: center;
+      
+      font-family: Lato;
+
+font-size: 13px;
+line-height: 16px;
+
+letter-spacing: 0.01em;
+color: #454545;
+background: #E0F8FF;
+
+  }
+
+  .your-marks{
+     margin-top: 7px;
+      /* border: 1px solid firebrick; */
+      background: #E0F8FF;
+
+  }
+
+  
+#exam {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+
+ 
+
+   #exam th {
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }  
+
+  #exam td{
+    padding: 20px;
+
+  }
+  
+  #exam th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: #EDEDED;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    
+    color: #454545;
+
+  }
+
+  #exam td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #454545;
+  }
+
+  .opposite-heading{
+      /* border:1px solid blue; */
+      display: flex;
+      justify-content: space-between;
+      margin-right: 10px;
+    
+  }
+
+  .exam-view-button{
+      padding: 5px;
+      height: 30px;
+      width: 70px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height, or 123% */
+      
+      letter-spacing: 0.01em;
+      
+      color: #FFFFFF;
+      background-color: blue;
+      border:0;
+      margin: 0;
+      border-radius: 5px;
+      cursor: pointer;
+     
+  }
+
+  .exam-view-heading{
+      /* border:1px solid hotpink; */
+      margin-top: 7px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height, or 123% */
+      
+      letter-spacing: 0.01em;
+      
+      color: #454545;
+  }
+
+  .exam-view-img{
+      margin-top: 5px;
+  }
+
+  @media screen  and (max-width: 550px ) {
+    .details-exam{
+        display: flex;
+        flex-direction: column;
+        word-break: break-word;
+      
+       
+    }
+    .rank-div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .initial-name{
+        display: flex;
+        flex-direction: column;
+      
+       
+    }
+    .exam-score-div{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+#exam td a{
+    color: blue;
+}

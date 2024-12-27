@@ -1,0 +1,118 @@
+.pastview_sub_ass_remark{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #454545;
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+.remark_title{
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+.pastview_upf_main_div{
+    display: flex;
+    height: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+   
+
+}
+.pastview_upf_main_div .pastview_upf_downlode{
+    display: none;
+}
+.pastview_upf_main_div:hover .pastview_upf_downlode{
+    display: flex;
+}
+.pastview_upf_docimg{
+display: flex;
+justify-content: center;
+
+}
+.pastview_upf_filename{
+    flex: 2;
+    margin-left: 17px;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+
+
+}
+.pastview_upf_downlode button{
+    background: #0FAA0C;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 30px;
+    width: 94px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+
+}
+
+/*.......................................Submit Assignment Link ................................*/
+.pastview_sl_maindiv{
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.pastview_sl_linkname{
+    font-weight: normal;
+    font-size: 13px;
+    color: #454545;
+    margin-left: 10px;
+}
+.pastview_sl_inputlink{
+    border-top: 1px solid #EBEBEB; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom: 5px;
+    
+}
+.pastview_sl_inputlink a{
+    color: blue;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    
+  
+
+}
+.pastview_sl_inputlink p{
+    display: flex;
+    padding: 10px;
+    width: 10px;
+    outline: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+
+
+}

@@ -1,0 +1,1490 @@
+/*=========================================================PROFILE_STARTS========================================================*/
+
+body h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #8b8b8b;
+}
+
+body h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+}
+
+.entire_profile_page_container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height:80vh;
+  padding: 10px;
+  padding-right: 10px;
+  background: #e5e5e5;
+  
+}
+.entire_profile_page_container::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.inner_container {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*======================Upper_div_starts===================*/
+
+.profile_top_div {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+}
+.profile_top_div h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+  line-height: 20px;
+}
+
+.profile_t h6 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.profile_top_div_subdiv1 {
+  display: flex;
+  justify-content: space-around;
+  /* width: 43%; */
+  width: 35%;
+  height: 25vh;
+  /* border: 2px solid brown; */
+}
+
+.top_sub_image_div h4 {
+  font-style: Lato;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.top_sub_image_div h6 {
+  font-style: Lato;
+  font-size: 0.72vw;
+  font-weight: 500;
+}
+
+.image_first_div_horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* margin-left: 10px; */
+  width: 50%;
+  /* border:2px solid red; */
+}
+
+.image_first_div_horizontal_inner_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* border:5px solid green; */
+}
+
+.image_div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border:2px solid #1B66E4;; */
+  border-radius: 50%;
+}
+.image_div img {
+  margin-top: 8px;
+  border-radius: 50%;
+}
+.profile_image_div img {
+  height: 105px;
+}
+.profile_check_icon {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+.profile_check_icon img {
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 70px;
+}
+
+.image_text_div_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image_text_div_inner_container {
+  width: 75%;
+  /* width:80%; */
+  border: 1px solid #1b60e6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+  margin-top: 20px;
+}
+
+.image_text_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 28px;
+  /* letter-spacing: 0.15em; */
+
+  font-weight: bold;
+  font-family: Lato;
+  /* font-weight: bold; */
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #1b5ee6;
+}
+
+.lock_icon {
+  margin-top: 3px;
+}
+.lock_icon img {
+  margin-top: 2px;
+  height: 17px;
+}
+
+.image_second_div_horizontal {
+  /* margin-left: 5%; */
+  width: 40%;
+  /* border:2px solid blue;
+   */
+}
+
+.image_second_divs_container {
+  margin-top: 25px;
+}
+
+.second_n_top_div {
+  margin-top: 28px;
+  width: 100%;
+  height: 30%;
+}
+.student_name_container {
+  height: 20%;
+}
+
+.student_name {
+  height: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.darlene_robertsene {
+  height: 25%;
+  /* margin-top: 5px; */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  /* line-height: 18px; */
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1954e7;
+}
+
+.joined_date {
+  margin-top: 10px;
+  height: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+.joined_date_digit {
+  height: 50%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+}
+.profile_top_div_subdiv2 {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  /* border:2px solid green; */
+}
+
+.image_third_div_horizontal {
+  margin-left: 2%;
+  width: 30%;
+  /* border:2px solid black; */
+}
+
+.third_div_container {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.contact_no_texts {
+  height: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75vw;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.contact_icons_n_digits {
+  height: 100%;
+  width: 110%;
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+}
+
+.contact_icon {
+  margin-top: 4px;
+  float: left;
+  text-align: center;
+  display: table;
+}
+contact_icon:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contact_no_digits {
+  float: left;
+  width: 14vr;
+  margin-left: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.22vw;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+  text-align: center;
+  display: table;
+}
+.contact_no_digits:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.mobile_no_digits {
+  font-family: Lato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0.02em;
+  /* border:1px solid red; */
+}
+.mobile_no_digits div {
+  color: #334d6e;
+  font-size: 17px;
+  font-family: Lato;
+  /* font-weight:bold; */
+}
+
+.email_id {
+  margin-top: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75vw;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #8b8b8b;
+}
+
+.email_icons_n_digits {
+  height: 100%;
+  /* text-align: center; */
+  display: flex;
+}
+
+.email_icon {
+  margin-top: 3px;
+  float: left;
+  text-align: center;
+  display: table;
+}
+.email_icon:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.email_text {
+  float: left;
+  margin-left: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8vw;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+  text-align: center;
+  display: table;
+}
+.email_text:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.image_fourth_div_horizontal {
+  /* margin-left: 2%; */
+  margin-right: 20px;
+  width: 65%;
+  /* border:2px solid brown; */
+}
+
+.fourth_div_container {
+  margin-top: 25px;
+  height: 100%;
+}
+
+.address {
+  height: 50%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.address_icons_n_digits {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.address_icon {
+  margin-top: 5px;
+  float: left;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+
+.address_text {
+  float: left;
+  margin-left: 10px;
+  width: 90%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+}
+
+/*=======================Upper_horizontal_div_of_profile_page_completed==============*/
+
+/*==============================Lower_div_starts=====================================*/
+
+/*======================================Education_info_starts=======================*/
+
+.profile_bottom_div {
+  width: 100%;
+  background: #e5e5e5;
+}
+
+.profile_bottom_div h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 1vw; */
+  /* font-size: 1.15vw; */
+
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+  line-height: 19px;
+}
+
+.profile_bottom_div h6 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.bottom_div_inner_container {
+  background: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.education_info_profile {
+  width: 25%;
+  height: 60vh;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.education_info_inner_container {
+  margin-top: 20px;
+  height: 90%;
+}
+
+.heading {
+  height: 14%;
+  width: 100%;
+  display: flex;
+}
+
+.education_icon {
+  margin-left: 7%;
+  float: left;
+  height: 100%;
+}
+.education_text_container {
+  float: left;
+}
+.education_info_text {
+  margin-left: 15px;
+  height: 50%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1b66e4;
+  text-align: center;
+  display: table;
+}
+.education_info_text:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dull_line {
+  margin-left: 15px;
+  width: 90px;
+  height: 3px;
+  left: 111px;
+  top: 355px;
+  background: #eae8e8;
+}
+
+.class_n_10th {
+  margin-left: 7%;
+}
+
+.course_n_neet {
+  margin-left: 7%;
+  margin-top: 8%;
+}
+
+.board {
+  margin-left: 7%;
+  margin-top: 8%;
+}
+
+/*==================================profile_block_starts===========*/
+
+.profile {
+  height: 5;
+  width: 40%;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.profile_inner_container {
+  margin-top: 20px;
+  height: 90%;
+}
+
+.profile_icon {
+  margin-left: 20px;
+  float: left;
+  height: 100%;
+}
+
+.profile_text_container {
+  float: left;
+  width: 35%;
+}
+
+.profile_text {
+  margin-left: 7%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1b66e4;
+  display: table;
+}
+
+.dull_line_2 {
+  margin-left: 16px;
+  width: 50px;
+  height: 3px;
+  left: 111px;
+  top: 355px;
+  background: #eae8e8;
+}
+
+.small_div_container {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 68%;
+  /* border:2px solid blue; */
+}
+
+.profile_page_small_divs {
+  float: left;
+  height: 100%;
+  width: 29%;
+
+  /* border:2px solid black; */
+}
+
+.profile_page_small_div2 {
+  float: left;
+  height: 100%;
+  width: 35%;
+  /* margin-right:15%; */
+  /* border:2px solid black; */
+}
+.profile_page_small_div3 {
+  float: left;
+  height: 100%;
+  width: 35%;
+  /* margin-right: 15%; */
+  /* border:2px solid black; */
+}
+
+.small_blocks {
+  height: 9vh;
+  width: 100%;
+  /* border:1px solid black; */
+}
+
+.profile_page_vertical_div3_container {
+  height: 100%;
+  float: left;
+  width: 2px;
+  text-align: center;
+  /* display: table; */
+}
+.profile_page_vertical_div3_container:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile_page_vertical_div3 {
+  height: 75%;
+  width: 2px;
+  background: #f8f8f8;
+}
+
+.profile_page_vertical_div4_container {
+  margin-left: 2%;
+  height: 100%;
+  float: left;
+  width: 2px;
+  text-align: center;
+  display: table;
+}
+.profile_page_vertical_div4_container:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile_page_vertical_div4 {
+  height: 50%;
+  width: 2px;
+  background: #f8f8f8;
+}
+
+.profile_page_vertical_div5_container {
+  margin-right: 7%;
+  height: 100%;
+  float: left;
+  width: 2px;
+  text-align: center;
+  display: table;
+}
+.profile_page_vertical_div5_container:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile_page_vertical_div5 {
+  height: 75%;
+  width: 2px;
+  background: #f8f8f8;
+}
+
+.profile_n_parent_bottom {
+  height: 9vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #334d6e;
+  /* border:2px solid red; */
+}
+
+/*===========parent_block_starts===========================*/
+
+.parent {
+  height: 5;
+  width: 34%;
+  border-radius: 5px;
+  background: #fff;
+}
+.profile_p_email {
+  float: left;
+
+  font-family: Lato;
+  font-style: normal;
+  /* font-weight:500; */
+  font-weight: 600;
+  /* font-size: 0.9vw; */
+  font-size: 0.8vw;
+  color: #334d6e;
+}
+.profile_p_email p {
+  /* font-weight:500; */
+  font-weight: 600;
+  /* font-size: 0.9vw; */
+  font-size: 0.8vw;
+}
+.profile_user_p_email {
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border:2px solid red; */
+}
+.profile_user_p_email div {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #334d6e;
+  height: fit-content;
+  /* font-size: 0.8vw; */
+  /* border:2px solid red; */
+}
+
+.profile_user_p_email div p {
+  font-weight: bold;
+  font-weight: 500;
+  /* font-size: 0.8vw; */
+  font-size: 13px;
+}
+
+.parent_inner_container {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 90%;
+  /* border:1px solid red; */
+}
+
+.parent_icon {
+  margin-left: 20px;
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+.parent_text_container {
+  float: left;
+  width: 35%;
+  margin-left: 5px;
+}
+
+.parent_text {
+  margin-left: 15px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1b66e4;
+  text-align: center;
+  display: table;
+}
+.parent_text:span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dull_line_3 {
+  margin-left: 18px;
+  width: 45px;
+  height: 3px;
+  left: 111px;
+  top: 355px;
+  background: #eae8e8;
+}
+.parent_bottom_divs_containerr {
+  /* border:2px solid black; */
+  height: 49vh;
+}
+
+.parent_page_small_divs {
+  float: left;
+  height: 100%;
+  width: 48%;
+  /* border:1px solid brown; */
+}
+
+.parent_small_blocks {
+  height: 9vh;
+  width: 100%;
+  /* border:1px solid black; */
+}
+
+/*=====================================Lower_div_Ends======================*/
+
+/*=======================================MEDIA_STARTS=======================*/
+
+@media screen and (min-width: 1600px) {
+  .profile_user_p_email div {
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+  }
+  .profile_user_p_email div p {
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+  }
+
+  .profile_bottom_div h4 {
+    font-size: 1.15vw;
+    line-height: 1.6vw;
+  }
+  .address_text {
+    font-size: 1.15vw;
+    line-height: 1.6vw;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .image_text_div_inner_container {
+    margin-top: 5vh;
+  }
+
+  .profile_top_div h4 {
+    font-size: 1.15vw;
+  }
+  .profile_top_div h6 {
+    font-size: 0.7vw;
+  }
+  .profile_bottom_div h6 {
+    font-size: 0.7vw;
+  }
+}
+
+@media screen and (min-width: 1301px) {
+  .image_text_div {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .image_text_div_inner_container {
+    width: 100%;
+  }
+
+  .image_text_div {
+    font-size: 1vw;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .image_text_div_inner_container {
+    width: 100%;
+  }
+  .profile_bottom_div h4 {
+    /* line-height: 10px; */
+    font-size: 1.15vw;
+  }
+  .profile_top_div_subdiv1
+  {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1016px) {
+  .image_text_div {
+    /* font-size: 1.2vw; */
+  }
+  .mobile_no_digits div h4 {
+    font-size: 11px;
+  }
+  .profile_bottom_div h4 {
+    /* line-height: 10px; */
+    font-size: 1.15vw;
+  }
+  .profile_bottom_div h6 {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .profile_bottom_div h4 {
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profile_p_email {
+    font-size: 7px;
+    font-weight: 500;
+  }
+  .profile_p_email p {
+    font-size: 7px;
+    font-weight: 500;
+  }
+  .profile_user_p_email {
+    float: left;
+    display: flex;
+  }
+  .profile_user_p_email div {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .profile_user_p_email div p {
+    font-weight: 500;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 870px) and (min-width: 801px) {
+  .image_text_div {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 810px) {
+  .mobile_no_digits div {
+    font-size: 10px;
+  }
+  .image_text_div {
+    font-weight: bold;
+  }
+
+  .darlene_robertsene {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (min-width: 801px) {
+  .image_first_div_horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .image_first_div_horizontal_inner_container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /*==============top==============*/
+
+  .image_text_div_container {
+    margin-top: 20px;
+  }
+
+  body h4 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  body h6 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .darlene_robertsene {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .profile_top_div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mobile_no_digits {
+    font-size: 17px;
+  }
+  .mobile_no_digits div h4 {
+    font-size: 15px;
+  }
+
+  .profile_top_div_subdiv1 {
+    width: 90%;
+    justify-content: center;
+    height: auto;
+    /* border:2px solid brown; */
+  }
+  .image_second_divs_container {
+    margin-top: 35px;
+  }
+  .joined_date_digit {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .joined_date {
+    margin-top: 20px;
+  }
+  .contact_no_digits {
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .profile_top_div_subdiv2 {
+    width: 90%;
+    justify-content: center;
+    height: none;
+  }
+
+  .image_first_div_horizontal {
+    width: 50%;
+    margin-left: 0px;
+    justify-content: space-between;
+  }
+  .image_first_div_horizontal_inner_container {
+    justify-content: space-between;
+  }
+
+  .image_text_div_inner_container {
+    width: 150px;
+    /* padding:2px; */
+    margin-top: 0;
+  }
+  .image_text_div {
+    font-size: 12px;
+  }
+
+  .image_second_div_horizontal {
+    width: 50%;
+    margin-left: 0px;
+  }
+  .third_div_container {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .image_third_div_horizontal {
+    width: 500px;
+    margin-left: 0px;
+    float: none;
+  }
+  .image_fourth_div_horizontal {
+    width: 500px;
+    margin-left: 0px;
+    margin-right: 0;
+    float: none;
+  }
+  .fourth_div_container {
+    margin-top: 35px;
+    height: 100%;
+  }
+
+  .email_id {
+    font-size: 16px;
+    display: flex;
+  }
+
+  .email_text {
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
+  .mobile_no_digits div {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .address_text {
+    /* font-weight: bold; */
+    font-size: 16px;
+    margin-left: 2px;
+  }
+
+  /*==============bottom==============*/
+  .profile_p_email {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .profile_p_email p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .profile_user_p_email {
+    float: left;
+    display: flex;
+  }
+  .profile_user_p_email div {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .profile_user_p_email div p {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .profile_bottom_div h4 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .small_blocks {
+    margin-bottom: 10px;
+  }
+  .profile {
+    height: auto;
+  }
+  .profile_inner_container {
+    height: auto;
+  }
+  .education_info_profile {
+    height: auto;
+    margin-top: 1px;
+  }
+
+  .bottom_div_inner_container {
+    flex-wrap: wrap;
+  }
+  /* .bottom_div_inner_container h4 {
+    font-size: 16px;
+  } */
+  .bottom_div_inner_container h6 {
+    font-size: 12px;
+  }
+  .profile_page_vertical_div3_container {
+    height: 0px;
+    width: 0px;
+  }
+  .profile_page_vertical_div3 {
+    height: 0px;
+    width: 0px;
+  }
+  .profile_page_vertical_div5_container {
+    height: 0px;
+    width: 0px;
+  }
+  .profile_page_vertical_div5 {
+    height: 0px;
+    width: 0px;
+  }
+
+  .education_info_profile {
+    width: 100%;
+    /* height: 35vh;
+     */
+  }
+  .education_info_inner_container {
+    width: 70%;
+  }
+  .education_icon {
+    margin-left: 16px;
+  }
+  .class_course_board_container {
+    height: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .class_n_10th {
+    margin-left: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .course_n_neet {
+    margin-top: 0;
+    display: flex;
+    margin-right: 16px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile {
+    width: 100%;
+    margin-top: 2px;
+  }
+  .profile_icon {
+    margin-left: 16px;
+  }
+  .profile_page_small_div2 {
+    margin-left: 16px;
+  }
+
+  .small_div_container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+  }
+  .parent {
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .parent_small_blocks {
+    margin-bottom: 10px;
+    /* height:auto; */
+    /* border:1px solid black; */
+  }
+  .parent {
+    height: auto;
+  }
+  .parent_bottom_divs_containerr {
+    height: auto;
+  }
+  .parent_inner_container {
+    height: auto;
+  }
+  .parent_page_small_divs {
+    height: auto;
+  }
+  .parent_icon {
+    margin-left: 0;
+  }
+  .parent_text_container {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 526px) {
+  .image_first_div_horizontal_inner_container {
+    width: 70%;
+  }
+  .profile_n_parent_bottom {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .mobile_no_digits {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  /*==============top==============*/
+  .entire_profile_page_container {
+    overflow-x: visible;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .profile_image_div img {
+    height: 50vw;
+  }
+
+  .profile_top_div_subdiv1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: none;
+  }
+  .profile_top_div_subdiv2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: none;
+  }
+  .image_first_div_horizontal {
+    width: 90%;
+    margin-left: 0px;
+  }
+  .address_text {
+    font-weight: 400;
+  }
+  .mobile_no_digits div {
+    font-weight: 400;
+  }
+  .email_text {
+    font-weight: 400;
+  }
+  .joined_date_digit {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  .contact_no_digits {
+    margin-left: 0;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .image_text_div {
+    font-size: 3.1vw;
+  }
+
+  .image_text_div_inner_container {
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 6px;
+  }
+  .darlene_robertsene {
+    font-weight: 600;
+    font-size: 6.5vw;
+    text-align: center;
+  }
+  .image_second_divs_container {
+    margin-top: 25px;
+  }
+  .lock_icon {
+    margin-left: 0;
+  }
+  .email_text {
+    font-size: 4vw;
+    margin-left: 2px;
+  }
+  .mobile_no_digits div {
+    font-size: 4vw;
+  }
+  .address_text {
+    font-weight: none;
+    font-size: 15px;
+  }
+  .image_second_div_horizontal {
+    width: 90%;
+  }
+  .image_third_div_horizontal {
+    width: 90%;
+  }
+  .image_fourth_div_horizontal {
+    width: 90%;
+  }
+
+  /*==============bottom==============*/
+
+  .profile {
+    height: auto;
+  }
+  .small_blocks {
+    margin-bottom: 12px;
+  }
+
+  .class_course_board_container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+  }
+  .class_n_10th {
+    margin-top: 10px;
+  }
+  .course_n_neet {
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  .small_div_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .profile_page_small_div3 {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 16px;
+  }
+  .profile_page_small_div2 {
+    width: 100%;
+    margin-left: 16px;
+  }
+  .profile_page_small_divs {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+  }
+
+  .parent {
+    /* height: 120vh; */
+  }
+  .parent_small_blocks {
+    margin-bottom: 12px;
+  }
+  .parent_page_small_divs {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .profile_n_parent_bottom {
+    margin-top: 5px;
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .entire_profile_page_container {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .profile_p_email {
+    float: left;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #334d6e;
+  }
+  .profile_p_email p {
+    font-weight: 500;
+    font-size: 4vw;
+  }
+  .profile_user_p_email {
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border:2px solid red; */
+  }
+  .profile_user_p_email div {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #334d6e;
+    height: fit-content;
+    /* font-size: 0.9vw; */
+    /* border:2px solid red; */
+  }
+
+  .profile_user_p_email div p {
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 4vw;
+  }
+
+  .profile_image_div img {
+    height: 140px;
+  }
+  .entire_profile_page_container {
+    padding: 20px;
+  }
+  .profile_text {
+    margin-left: 25px;
+  }
+  .dull_line_2 {
+    margin-left: 25px;
+  }
+  .parent_text {
+    margin-left: 40px;
+  }
+  .parent {
+    height: 120vh;
+  }
+  .dull_line_3 {
+    margin-left: 40px;
+  }
+  .darlene_robertsene {
+    text-align: start;
+  }
+  .mobile_no_digits div h4 {
+    font-size: 15px;
+  }
+
+  /*==============bottom==============*/
+  .profile_bottom_div h4 {
+    font-size: 4vw;
+  }
+  .profile_bottom_div h6 {
+    font-size: 3.1vw;
+  }
+  .parent_bottom_divs_containerr {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+}
+
+/* @media screen {
+
+  .image_text_div_inner_container
+
+} */
+@media screen and (max-width: 280px) {
+  .mobile_no_digits div h4 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 160px) {
+  .profile_image_div img {
+    height: 100px;
+  }
+  .image_text_div_inner_container {
+    margin-left: 7px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  /*==============bottom==============*/
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.25" height="47.25" viewBox="0 0 47.25 47.25">
+  <defs>
+    <filter id="help" x="0" y="0" width="47.25" height="47.25" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#help)">
+    <path id="help-2" data-name="help" d="M18,3.375A14.625,14.625,0,1,0,32.625,18,14.623,14.623,0,0,0,18,3.375ZM17.7,24.75A1.45,1.45,0,1,1,19.209,23.3,1.468,1.468,0,0,1,17.7,24.75Zm2.827-6.813c-1.223.71-1.638,1.23-1.638,2.13v.555h-2.44l-.021-.6a2.927,2.927,0,0,1,1.659-3.094c1.188-.71,1.688-1.16,1.688-2.032A1.707,1.707,0,0,0,17.88,13.38,1.779,1.779,0,0,0,16,15.11H13.5c.049-2.264,1.723-3.867,4.549-3.867,2.637,0,4.451,1.462,4.451,3.565A3.442,3.442,0,0,1,20.524,17.937Z" transform="translate(5.63 3.63)" fill="#5493e5"/>
+  </g>
+</svg>

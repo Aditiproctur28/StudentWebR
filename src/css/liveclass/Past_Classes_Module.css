@@ -1,0 +1,17 @@
+.past_classes_main_div{
+    /* padding-bottom: 25px; */
+    
+}
+.past_classes_container{
+    background-color: #E5E5E5;
+    overflow-x: auto;
+    margin-left: 32px;
+    margin-right: 24px;
+}
+.day_update_line{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}

@@ -1,0 +1,234 @@
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.profile_box {
+  position: relative;
+  width: 292px;
+  float: right;
+  margin-right: 10px;
+  max-height: 70vh;
+  margin-top: 45px;
+  border-radius: 5px;
+  background: #fff;
+  overflow: hidden;
+}
+.upperdiv{
+  background-color: #f2faff;
+  width: 100%;
+}
+.profile_container {
+  font-family: Lato;
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+.profile_photo {
+  /* background: url(.././../../asserts/image\ 6.png);
+    border-radius: 900px; */
+  background-repeat: no-repeat;
+  min-height: 75px;
+  min-width: 75px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.profile_photo img {
+  border-radius: 50%;
+}
+
+.profile_name {
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  height: 30px;
+  letter-spacing: 0.01em;
+  color: #454545;
+}
+.joined_on {
+  /* font-family: Helvetica; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-bottom: 3px;
+}
+.id_detail_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  margin-bottom: 21px;
+}
+.po_id_img {
+  background: url(../../assets/header/Ellipse.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 18px;
+  width: 18px;
+}
+.po_id_img img {
+  padding-bottom: 5px;
+}
+.po_contact_img {
+  background: url(../../assets/header/Ellipse.svg);
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  align-items: center;
+}
+.po_contact_img img {
+  padding-bottom: 3px;
+ 
+}
+.po_id_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Po_contact_Detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+}
+.po_id_num {
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #454545;
+  margin-left: 5px;
+}
+.po_contact_num {
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #454545;
+  margin-left: 5px;
+}
+.my_profile {
+  border: 2px solid #DBDBDB;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+
+}
+.my_profile Link {
+  width: 100%;
+  height: 100%;
+}
+.my_profile a {
+  font-family: Lato;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: #454545;
+}
+.log_out {
+  /* font-family: Open Sans; */
+  width: 100%;
+  background-color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #454545;
+  padding: 15px;
+  cursor: pointer;
+}
+.log_out button{
+  width: 100%;
+  height: 100%;
+}
+/* @media screen and (min-width: 300px) and (max-width: 900px) {
+    .box {
+        width: 50%;
+    }   
+}
+*/
+.PrivacyMaindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 6px;
+}
+.Privacy{
+  margin-left: 24px;
+}
+.Privacy a{
+  font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 0.01em;
+color: #0097F9;
+}
+.Terms_of_service{
+  margin-right: 24px;
+}
+.Terms_of_service a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #0097F9;
+}
+.announcement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+ 
+ 
+ 
+  }
+  .announcement_left{
+ 
+
+  }
+  .announcement_right{
+  /* position: fixed; */
+  }
+.announcementmsg{
+  padding: 0.6em 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  margin: 1em 0;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.announcementmsgdate{
+
+}
+.announcementallmsg{
+  flex: 2;
+  margin-left: 25px;
+}
+@media screen and (min-width: 100px) and (max-width: 300px) {
+  .box {
+    width: 100%;
+  }
+}

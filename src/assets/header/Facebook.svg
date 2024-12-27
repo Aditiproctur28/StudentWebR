@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_5" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Facebook" transform="translate(-846 -668)">
+    <g id="Group_340" data-name="Group 340" transform="translate(-2779 4339)">
+      <g transform="matrix(1, 0, 0, 1, 3625, -3671)" filter="url(#Ellipse_5)">
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="15" cy="15" r="15" transform="translate(9 7)" fill="#3765a1"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M9.861,9.274l.458-2.984H7.456V4.354A1.492,1.492,0,0,1,9.138,2.742h1.3V.2A15.873,15.873,0,0,0,8.13,0a3.643,3.643,0,0,0-3.9,4.016V6.29H1.609V9.274H4.23v7.213H7.456V9.274Z" transform="translate(863.975 681.756)" fill="#fff"/>
+  </g>
+</svg>

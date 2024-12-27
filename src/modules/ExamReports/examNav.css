@@ -1,0 +1,120 @@
+
+.back-div::-webkit-scrollbar {
+  width: 0;  
+  background: transparent;  
+}
+
+.exam-nav
+{
+  max-height: 80px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.navheaddingreport{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #6D6060; 
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+.live {
+  min-width: 1000px;
+    background: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    font-size: 16px;
+    /* padding: 0px 20px; */
+    border-bottom: 1px solid  #DDDFE3;
+    /* width: 100%; */
+    
+  }
+  
+ 
+  .live-menu {
+    display: flex;
+    /* flex: 3; */
+    /* list-style: none; */
+    margin-top: 5px;
+    /* justify-content:start; */
+    /* height: 50px; */
+    /* border: 1px solid pink; */
+    /* margin-left: 10px;   */
+  
+   }
+  
+  
+  
+  .live-links {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    /* border: 1px solid orange; */
+  }
+ 
+  .live-links-active,  .live-links:hover  {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    border-bottom: 5px solid #1954E7;
+    /* margin-bottom: 6%; */
+  }
+
+  .search-div{
+    border: 1px solid green;
+  }
+  .back-div2{
+    height: 35px;
+    width: 90%;
+    display: flex;
+  }
+
+  @media screen  and (max-width: 550px ) {
+    .live{
+        display: flex;
+        flex-direction: column;
+      
+       
+    }    
+    .Search_bar{
+      margin: 0;
+    }
+  }
+  
+  .bookmark-button {
+    border: 1px solid #E5C12E;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 32px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.bookmark-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #334D6E;
+    margin-left: 12px;
+}

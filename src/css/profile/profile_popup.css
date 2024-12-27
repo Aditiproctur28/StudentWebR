@@ -1,0 +1,517 @@
+/*========================================change_passwprd_portion_starts=================*/
+
+.change_your_password_container {
+  width: 380px;
+  height: 350px;
+  /* background: pink; */
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+  position: fixed;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 10;
+  top: 23vh;
+  left: 35%;
+
+  /* border: 2px solid black; */
+}
+.change_paswd_inner_container {
+  display: flex;
+  justify-content: space-around;
+
+  height: 345px;
+  width: 360px;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.cross_change_pswd {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+
+  /* border: 2px solid red; */
+}
+
+
+.change_paswd_inner_container input {
+  padding: 5px;
+  color:black;
+  /* border: 0; */
+}
+
+.tala_icon img {
+  height: 110px;
+  /* left:50px; */
+}
+
+.change_your_pswd_text_div {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: none;
+}
+
+.old_pswd_div_text input {
+  width: 85%;
+  border-radius: 5px;
+  color: #99aac0;
+
+  border: 1px solid #edeaea;
+  /* border: 1px solid red; */
+}
+
+.new_pswd_text input {
+  width: 85%;
+  color: #99aac0;
+  border-radius: 5px;
+
+  border: 1px solid #edeaea;
+  /* border: 1px solid red; */
+}
+
+.retype_pswd_text input {
+  width: 85%;
+  color: #99aac0;
+  border-radius: 5px;
+
+  border: 1px solid #edeaea;
+  /* border: 1px solid red; */
+}
+
+.change_save_btn button {
+  height: 40px;
+  width: 85%;
+  color: #fff;
+  font-weight: 600;
+  background: #1953e7;
+  border-radius: 5px;
+  border: 0;
+  /* outline: 0; */
+}
+
+/*===================================change_password_ends======================*/
+
+/*=======================================Edit_Address===============================*/
+.profile_page_edit_address_container {
+  width: 478px;
+  height: 216px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 10;
+  top: 35vh;
+  left: 30%;
+}
+.profile_edit_address_inner_container {
+  /* width: 457px; */
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: white;
+
+  /* border: 1px solid red; */
+}
+.cross_edit_adsress_profile {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.profile_edit_address_text {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 14px;
+  color: #334d6e;
+  /* border: 2px solid red; */
+}
+.profile_edit_address_textarea textarea {
+  width: 98%;
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #edeaea;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.profile_edit_address_line {
+  height: 3px;
+  width: 55px;
+  margin-bottom: 25px;
+
+  background: #1953e7;
+}
+.profile_edit_address_save_div button {
+  background: #1953e7;
+  width: 13%;
+  color: #fff;
+  float: right;
+  border-radius: 4px;
+  /* margin-top: 10px; */
+  padding: 9px;
+  border: 0;
+}
+/*==========================Edit_Address_Completed=====================*/
+
+/*=========================birth starts===================================*/
+
+.profile_page_edit_birth_container {
+  width: 265px;
+  height: 154px;
+  /* background: pink; */
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+  position: fixed;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
+  background-color: white;
+  z-index: 10;
+
+  top: 35vh;
+  left: 40%;
+
+  border: 0;
+}
+.profile_edit_birth_inner_container {
+  /* width: 240px; */
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* border: 1px solid red; */
+}
+.cross_birthplace_popup_profile {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.profile_edit_birth_text {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 14px;
+  color: #334d6e;
+  /* border: 2px solid red; */
+}
+.profile_edit_birth input {
+  width: 96%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #edeaea;
+
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.profile_edit_birth_line {
+  height: 3px;
+  width: 55px;
+  margin-bottom: 5px;
+
+  background: #1953e7;
+}
+.profile_edit_birth_save_div button {
+  background: #1953e7;
+  width: 25%;
+  color: #fff;
+  float: right;
+  border-radius: 4px;
+  /* margin-top: 10px; */
+  padding: 9px;
+  border: 0;
+}
+
+/*===========================================birth ends=========================*/
+/*===========================================blood_group_starts==================*/
+.profile_page_edit_blood_container {
+  width: 265px;
+  height: 154px;
+  /* background: pink; */
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+  position: fixed;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 10;
+  top: 35vh;
+  left: 40%;
+
+  /* border: 2px solid black; */
+}
+.profile_edit_blood_inner_container {
+  /* width: 240px; */
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* border: 1px solid red; */
+}
+.cross_bloodgroup_popup_profile {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.profile_edit_blood_text {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 14px;
+  color: #334d6e;
+  /* border: 2px solid red; */
+}
+.profile_edit_blood select {
+  width: 96%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #edeaea;
+
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.profile_edit_blood_line {
+  height: 3px;
+  width: 55px;
+  margin-bottom: 5px;
+
+  background: #1953e7;
+}
+.profile_edit_blood_save_div button {
+  background: #1953e7;
+  width: 25%;
+  color: #fff;
+  float: right;
+  /* margin-top: 10px; */
+  padding: 9px;
+  border: 0;
+}
+
+/*====================================blood group ends======================*/
+/*================================EDIT DOB STARTS=============================*/
+
+.profile_page_edit_dob_container {
+  width: 400px;
+  height: 154px;
+  /* background: pink; */
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+  position: fixed;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 10;
+  top: 35%;
+  left: 35%;
+
+  /* border: 2px solid black; */
+}
+.profile_edit_dob_inner_container {
+  /* width: 380px; */
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* border: 1px solid red; */
+}
+.cross_dob_popup_profile {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+.profile_edit_dob_text {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 14px;
+  color: #334d6e;
+  /* border: 2px solid red; */
+}
+
+.profile_edit_dob {
+  display: flex;
+}
+.profile_edit_dob select {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #edeaea;
+
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.profile_edit_dob_line {
+  height: 3px;
+  width: 55px;
+  margin-bottom: 5px;
+
+  background: #1953e7;
+}
+.profile_edit_dob_save_div button {
+  background: #1953e7;
+  width: 25%;
+  color: #fff;
+  float: right;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  padding: 9px;
+  border: 0;
+}
+/*========================================DOB ENDS====================================*/
+
+@media screen and (max-width: 800px) {
+  .profile_page_edit_address_container {
+    left: 15%;
+  }
+  .change_your_password_container {
+    left: 20%;
+  }
+  .profile_page_edit_birth_container {
+    left: 30%;
+  }
+  .profile_page_edit_dob_container {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 600px)
+ {
+  .profile_page_edit_address_container {
+    /* width: 478px; */
+    width: 330px;
+    height: 216px;
+    left: 12%;
+
+    /* border: 2px solid red; */
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .profile_page_edit_address_container {
+    /* width: 478px; */
+    width: 330px;
+    height: 216px;
+    left: 5%;
+
+    /* border: 2px solid red; */
+  }
+  .profile_page_edit_address_container {
+    /* width: 478px; */
+    width: 330px;
+    height: 216px;
+    left: 5%;
+
+    /* border: 2px solid red; */
+  }
+  .profile_edit_address_inner_container {
+    width: 330px;
+    height: 215px;
+  }
+
+  .profile_page_edit_birth_container {
+    left: 20%;
+  }
+
+  .profile_page_edit_blood_container {
+    left: 20%;
+  }
+
+  .profile_page_edit_dob_container {
+    width: 320px;
+    left: 10%;
+  }
+  .profile_edit_dob_inner_container {
+    width: 300px;
+  }
+  .change_your_password_container {
+    width: 270px;
+    left: 15%;
+  }
+  .change_paswd_inner_container {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .profile_page_edit_address_container {
+    width: 280px;
+    left: 12%;
+    height:216px;
+  }
+  .profile_edit_address_inner_container {
+    width: 280px;
+    height: 215px;
+  }
+  .profile_edit_address_save_div button {
+    font-size: 8px;
+  }
+  .profile_page_edit_birth_container {
+    left: 17%;
+  }
+  .profile_page_edit_blood_container {
+    left: 15%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .change_your_password_container {
+    top: 10%;
+  }
+
+}
+
+@media screen and (max-height: 400px) {
+  .change_your_password_container {
+    top: 1%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .change_your_password_container {
+    width: 240px;
+    left: 15%;
+    left:4%;
+  }
+  .change_paswd_inner_container {
+    width: 230px;
+  }
+  .profile_page_edit_address_container {
+    left:4%;
+    width:230px;
+  }
+  .profile_edit_address_inner_container
+  {
+    width:230px;
+  }
+  .profile_page_edit_birth_container
+  {
+    left:4%;
+    width:225px;
+  }
+  .profile_edit_birth_inner_container
+  {
+    width:225px;
+  }
+  .profile_page_edit_blood_container
+  {
+    left:4%;
+    width:225px;
+  }
+  .profile_page_edit_dob_container
+  {
+    left:4%;
+    width:225px;
+  }
+  .profile_edit_dob_inner_container
+  {
+    width:225px;
+  }
+}
+

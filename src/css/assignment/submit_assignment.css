@@ -1,0 +1,209 @@
+.sub_ass_remark{
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+
+}
+.sub_ass_remark p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #454545;
+    padding: 10px;
+
+}
+.sub_ass_remark input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background: none;
+    padding: 5px 10px 10px 10px ;
+    display: inline-block;
+    width: 95%;
+}
+.addlinkbutton button{
+    border: 0;
+    outline: 0;
+    float: right;
+    background: none;
+    border-radius: 50%;
+    height: 14px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+  
+
+}
+.addlinkbutton img{
+    background-color: none;
+    width: 14px;
+    float: right;
+    height: 14px;
+}
+.addlinkbutton p{
+font-size: 12px;
+margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.upf_main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #EBEBEB;
+}
+.upf_docimg{
+
+
+}
+.upf_filename{
+    flex: 2;
+    margin-left: 17px;
+    word-break: break-all;
+   
+}
+.upf_filename p{
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+/* .upf_canclebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.upf_canclebtn button{
+ outline: 0;
+ border: 0;
+ background: none;
+ align-items: center;
+ display: flex;
+
+}
+
+/*.......................................Submit Assignment Link ................................*/
+.sl_maindiv{
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.sl_linkname{
+    font-weight: normal;
+    font-size: 13px;
+    color: #454545;
+    padding: 10px;
+}
+.sl_linkname input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: none;
+}
+.sl_inputlink{
+    border-top: 1px solid #EBEBEB;
+    padding: 8px;
+    
+    
+}
+.sl_inputlink input{
+    width: 100%;
+    height: 53px;
+    outline: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    background: none;
+
+
+
+}
+
+/* uplode link file */
+.linkmaindiv{
+    margin-top: 10px;
+    border: 1px solid #EBEBEB;
+    width: 97%;
+    
+}
+.cancleLink{
+float: right;
+background: none;
+margin: -12px;
+}
+.cancleLink img{
+    width: 25px;
+    height: 25px;
+}
+.cancleLink button{
+    /* position: fixed; */
+    background: none;
+    border: 0;
+    outline: 0;
+  
+}
+.link_name{
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+}
+.link_name p{
+    font-weight: normal;
+    font-size: 13px;
+    padding: 10px;
+    color: #454545;
+}
+.linkurl{
+   
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+   
+}
+.linkurl a{
+    padding: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    color: blue;
+    cursor: pointer;
+    columns: 5;
+    grid-row: auto;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.Addremarkbtn{
+    float: right;
+    padding: 5px;
+
+}
+.Addremarkbtn button{
+    padding: 5px;
+    background: none;
+    border: 0;
+    outline: 0;
+  
+
+}

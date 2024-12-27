@@ -1,0 +1,61 @@
+.AssiDate{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 8px 8px 0px;
+    
+}
+.AssiDate p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    display: flex;
+    justify-content: center;
+    
+}
+.Expired{
+    color: #C8C8C8;
+}
+.Open{
+    color: #FF0A0A;
+
+}
+.Submitted{
+    color: #14A35E;
+}
+.Evaluated{
+color: #BF0AFF;
+}
+.UnderEvalution{
+    color: orange;
+
+}
+.PendingEvaluation{
+    color: #FF0A0A;
+}
+
+
+
+.dueDatetitle{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #8B8B8B;
+}
+.AssiShow{
+    padding: 8px;
+    
+
+}
+.AssiHide{
+  display: none;
+}

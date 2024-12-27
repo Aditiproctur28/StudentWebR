@@ -1,0 +1,400 @@
+.completed-container{
+    /* border:1px solid blue; */
+    display: flex;
+    background: #fafafa;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.completed-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.doc{
+    /* border:1px solid blue; */
+    height:90vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentCard-complete{ 
+    /* border:1px solid black; */
+    width :350px;
+    height :fit-content;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;   
+    margin-top: 12px; 
+    margin-left: 14px;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card22{
+    /* border:1px solid palevioletred; */
+    height:200px;
+    /* background: url(../Products/Balls.png); */
+    margin: 10px 10px 0px 10px;
+    border-radius: 7px;
+    background-size: cover
+}
+
+.goback{
+    background: linear-gradient(
+90deg
+, #1953E7 7.67%, rgba(4, 222, 222, 0.79) 109.54%);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border:0;
+    outline: 0;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 10px;
+
+}
+
+.price{
+    /* border:1px solid darkgoldenrod; */
+    width: 100px;
+    height:fit-content;
+    padding: 3px;
+    background: #FF9900;
+    /* border-radius: 5px; */
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 7px;
+    text-align: center;
+    font-family: "Open-Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+
+.product-headin{
+    /* border:1px solid indianred; */
+    /* margin-right: 14px;
+    margin-left: 14px; */
+    height:fit-content;
+    padding: 15px;
+    display: flex;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    /* border-bottom: 1px solid #F8F8F8; */
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.Category-heading2{
+    /* border:1px solid red; */
+    padding: 15px;
+    height:fit-content;
+    margin-right: 14px;
+    margin-left: 7px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #9CA5AF;
+    border-bottom: 1px solid #F8F8F8;
+    display:flex;
+
+}
+
+.Exam-heading2{
+    /* border: 1px solid blue; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #454545;
+   
+    /* width: 50px;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis; */
+}
+
+.card-prods2{
+    /* border:1px solid green; */
+    /* margin-right: 14px;
+    margin-left: 14px; */
+    padding: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid #F8F8F8;
+    
+}
+
+.purchase-heading2{
+    /* border:1px solid firebrick; */
+    padding: 10px;
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    /* border:1px solid greenyellow; */
+    width: fit-content;
+    padding: 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 14px;
+    margin-left: 14px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    border-bottom: 1px solid #F8F8F8;
+
+
+}
+
+.date{
+    /* border:1px solid yellow; */
+    /* width: fit-content; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    color: #454545;
+} 
+
+/* .partition-prod{
+      
+    height:70px;
+    margin-left: 15px;
+    margin-right: 25px;
+    transform: rotate(-180deg);
+
+} */
+
+.invoice{
+    /* border:1px solid blue; */
+    margin: 17px;
+    /* padding:10px; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    
+}
+
+
+.Product-info-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 14px 14px 14px;
+    border-radius: 2px;
+    border: 1px solid #EBEBEB
+}
+
+
+.prod-info{
+    /* border:1px solid red; */
+    display: flex;
+    padding:10px; 
+}
+
+
+.prod{
+    /* border:1px solid hotpink; */
+    display:flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.product-Inv{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #454545;
+
+}
+
+
+.product-id{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #9CA5AF;
+    margin-left: 3px;
+}
+
+.button-down{
+    background-color: #0FAA0C;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    padding:10px;
+    margin-top: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border:0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+ /* ----------------------------------------------------------------------------------------------------- */
+
+
+
+.types{
+    /* border:1px solid black; */
+    margin:15px 5px 5px 5px;
+    background: #fafafa;
+    height: fit-content;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  
+}
+.complete-div{
+    /* border:1px solid crimson; */
+    height: fit-content;
+    display: inline;
+    width: 100%;
+}
+
+.studyM{
+    /* border:1px solid red; */
+    padding: 12px;
+    /* color: #01325D; */
+    display: flex;
+    background: #FFFFFF;
+    border-bottom: 1px solid #EBEBEB;
+}
+.study-heading{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.171429px;
+
+    color: #01325D;
+
+}
+
+.dot{
+    /* border:1px solid black; */
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    margin-top:3px;
+    background-color: blue;
+    
+  
+}
+
+.product-details{
+    /* border: 1px solid lawngreen; */
+    background: #FFFFFF;
+    padding:5px 25px 20px 25px ;
+}
+
+
+
+.div-para{
+    /* border:1px solid violet; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    /* padding:10px  ; */
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.div-info{
+    /* border: 1px solid navy; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding:10px ;
+    background: #F9F9F9;
+    border-radius: 5px;
+    margin-left: 10px;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 700px ) {
+    .completed-container{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+       
+    }
+    .documentCard-complete{
+        margin: 10px;
+        width: calc( 100% - 20px );
+    }
+    
+    
+         
+      
+    
+}

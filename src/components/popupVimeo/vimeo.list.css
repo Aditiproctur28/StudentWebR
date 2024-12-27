@@ -1,0 +1,19 @@
+.radio-button{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+   
+   
+
+}
+
+.download-popup{
+    height:30px;
+    padding: 5px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+    background-color: white;
+    /* border: 1px solid black; */
+}

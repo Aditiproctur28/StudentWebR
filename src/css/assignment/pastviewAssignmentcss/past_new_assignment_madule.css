@@ -1,0 +1,189 @@
+.pastview_new_assignment_container{
+    margin-top: 32px;
+
+}
+.pastview_new_assignment_main_div{
+    display: flex;
+    flex-direction: column;
+}
+.pastview_new_assignment_class_name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    margin-bottom: 18px;
+}
+.pastview_new_assignment_class_name p {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #454545;
+
+}
+.pastview_new_assignment_subject_name{
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.pastview_new_assignment_subject_title_name{
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #908C8C;
+    margin-right: 5px;
+}
+.pastview_divder_div{
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    width: 44px;
+    height: 1px;
+    border-radius: 5px;
+    transform: rotate(90deg);
+
+}
+.pastview_new_assignment_subtopic_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 35px;
+    align-items: center;
+    padding-bottom: 12px;
+
+}
+.pastview_new_assignment_topic {
+    font-weight: normal;
+    font-size: 13px;
+    width: 150px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+
+
+}
+.pastview_new_assignment_subtopic {
+    font-weight: normal;
+    margin-left: 16px;
+    flex: 2;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+}
+
+.pastview_new_assignment_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.pastview_new_assignment_date_main{
+    padding-right: 20px;
+}
+.pastview_date_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pastview_due_date{
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8B8B8B;
+    margin-left: 5px;
+}
+.pastview_date_text{
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+
+}
+.pastview_course_title_main{
+    flex: 1.5;
+    margin-left: 10px;
+}
+.pastview_course_title{
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #908C8C;
+}
+.pastview_course_text{
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #454545;
+
+}
+
+.pastview_new_assignment_description{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pastview_description_title{
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #BBBBBB;
+
+}
+.pastview_description_text{
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    margin-top: 2px;
+    color: #454545;
+}
+.pastview_new_assignment_pdf{
+    margin-top: 12px;
+    height: 200px;
+    overflow: auto;
+
+}
+.pastview_new_assignment_link{
+    padding: 8px;
+    border: 1px solid #EBEBEB;
+    margin-top: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+}
+.pastview_new_assignment_link p{
+    border-bottom: 2px solid #EBEBEB;
+    padding: 2px;
+}
+.pastview_new_assignment_link_details{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-top: 5px;
+}
+.pastview_new_assignment_link_details a{
+ color: blue;
+ margin-left: 10px;
+ cursor: pointer;
+}

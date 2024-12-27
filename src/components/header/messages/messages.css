@@ -1,0 +1,184 @@
+.Header-div{
+    position: relative;
+    /* top: 0; */
+}
+.Message-title{
+    background: #FFFFFF;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.Message-title p{  
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #334D6E;
+
+}
+.Main-Container{
+    background-color: #E5E5E5;
+    height: calc(100vh - 165px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.messages-side{
+ flex: 2;
+ overflow: auto;
+ margin-left: 26px;
+ padding-right: 26px;
+}
+.messages-img{
+background-color: #F0F2F8;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+
+margin: 19px 28px 16px 29px;
+}
+.msg-ti{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-bottom: 22px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #334D6E;
+    
+}
+.fix-msg{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.01em;
+padding-left: 43px;
+padding-right: 43px;
+height: 48px;
+width: 288px;
+color: #8B8B8B;
+margin-bottom: 23px;
+}
+
+.messagelistmaindiv{
+    background-color: #FFFFFF;
+    padding-right: 16px;
+    height: fit-content;
+}
+.msgs{
+    padding-left: 30px;
+    padding-top: 11px;
+}
+
+.msgs p {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.01em;
+
+color: #454545;
+
+
+}
+.msgtime{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+    height: 35px;
+}
+.msgtime p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8A8A8A;
+    
+}
+.msgdateborder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.msg_days_label{
+    width: 145px;
+    height: 22px;
+    background: #2B64F1;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.msg_days_label_days{
+   margin-left: 11px;
+}
+.verticalline{
+    background-color: #FFFFFF;
+    width: 1px;
+    height: 15px;
+}
+.line_div{
+    margin-left: 10px;
+    height: 2px;
+    width: calc(100% - 155px);
+    background-color: #D3D3D3;
+    /* background-color: linear-gradient(180deg, #9E9999 0%, rgba(232, 232, 232, 0) 100%); */
+}
+.msg_days_label_days p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.msg_days_label_dates{
+margin-right: 11px;
+}
+.msg_days_label_dates p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+}
+.nomessagesyet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+}
+.nomessagesyet p {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #334D6E;
+padding-bottom: 12px;
+}

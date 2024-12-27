@@ -1,0 +1,106 @@
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.popmsgdiv {
+    position: relative;
+    width: 498px;
+    margin: 0 auto;
+    height: auto;
+    max-height: 30vh;
+    margin-top: 5vh;
+    /* margin-top: calc(100vh - 85vh - 20px); */
+    border: 1px solid #999;
+    overflow: auto;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 20px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.canclebutton {
+    width: 46%;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #1954E7;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1954E7;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yesconfirm {
+    width: 46%;
+    height: 44px;
+    background: #1954E7;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    border: none;
+    outline: none;
+    justify-content: center;
+}
+
+.msg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #54595E;
+}
+
+.canceldiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.imgdiv {
+    width: 40px;
+    height: 40px;
+    background: #FFE8E8;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.msgdivmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.buttondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 36px;
+    margin-top: 24px;
+}

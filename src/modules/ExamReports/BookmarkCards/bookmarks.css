@@ -1,0 +1,131 @@
+.containerdiv {
+    /* padding-left: 25px;
+    padding-right: 26px;
+    padding-bottom: 13px; */
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.backbutton {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #454545;
+    border: none;
+    outline: none;
+    background-color: #FAFAFA;
+}
+
+.bookmarkQuestionTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #454545;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 26px;
+}
+
+.resettext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FA0505;
+    margin-right: 20px;
+
+}
+
+.applyButton {
+    background: #1953E7;
+    border: 1px solid #1953E7;
+    border-radius: 5px;
+    width: 61px;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.dropDown {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    height: 35px;
+    width: 180px;
+    margin-right: 16px;
+}
+
+.stateline {
+    background: #DDDFE3;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 100%;
+}
+
+.cardmaindiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 26px;
+    margin-top: 26px;
+}
+
+.cardstyle {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 5px 5px 5px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.borderline {
+    height: 45px;
+    width: 4px;
+    background: #E717EB;
+}
+
+.noBookmarkdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noBookmarkLable {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}

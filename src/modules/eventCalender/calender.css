@@ -1,0 +1,436 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.tt_attendance_popup_container {
+  max-height: 80vh;
+  width: 55%;
+  font-family: Lato;
+  font-size: 16px;
+  background: white;
+  overflow-y: auto;
+  position: fixed;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 10;
+  top: 10%;
+  left: 22%;
+  border-radius: 5px;
+}
+
+
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #E5E5E5;
+  height: 81.5vh;
+  width: 100%;
+}
+
+.mini_container:hover {
+  background: #F6F6F6;
+}
+
+.buttonEvent {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 0px;
+  cursor: pointer;
+}
+.buttonEvent:hover {
+  background: #F6F6F6;
+}
+
+.calender_container {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 75%;
+  margin: 25px;
+  flex-direction: column;
+}
+
+.calender_container_header {
+  height: 98%;
+  margin: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.monthSelectDiv {
+  width: 30%;
+  padding-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.eventChooseDiv {
+  width: 25%;
+  padding-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.eventChoose {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.check_event {
+  height: 25px;
+  width: 100px;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.check_all_event {
+  height: 25px;
+  width: 100px;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.monthDateHead {
+  color: #334D6E;
+  font-size: 20;
+  font-weight: 1000;
+  width: 50%;
+}
+
+.changeMonthSelect {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-around;
+}
+.event-button {
+  background: #ffffff;
+}
+.event-button:hover {
+  background: #EAEAEA;
+}
+
+.calenderHeader {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  height: 30px;
+  width: 126.4px;
+  color: #334D6E;
+  padding-top: 10px;
+  padding-left: 3px;
+  align-self: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  border: 0.5px #E6E6E6;
+  width: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mini_container {
+  border: 1px solid #E6E6E6;
+  height: 63px;
+  width: 128px;
+
+}
+.mini_container-header {
+  border: 1px solid #EAF7FF;
+  border-top-color: #E6E6E6;
+  /* border-right-color:  #E6E6E6; */
+  height: 30px;
+  width: 128px;
+  background: #EAF7FF;
+}
+.weekoff {
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  height: 10px;
+  align-items: center;
+  background-color: #ECECEC;
+  margin: 3px;
+  padding: 2px;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.weekoffStyle {
+  font-size: 8px;
+  color: #334D6E;
+}
+
+.holiday {
+  display: flex;
+  width: 98%;
+  flex-direction: row;
+  border: 1px;
+  height: 8px;
+  background-color: #17CC55;
+  padding: 2px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.holidayEvent {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  height: 8px;
+  background-color: #FFA412;
+  padding: 2px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.holidayTextStyle {
+  font-size: 7px;
+  color: #fff;
+  margin-top: 1px;
+
+}
+
+.scrollCal {
+  overflow: auto
+}
+
+.scrollCal::-webkit-scrollbar {
+  border-radius: 8px;
+  background: rgba(196, 196, 196, 0.4);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.08);
+  width: 8px;
+  height: 8px;
+}
+
+.scrollCal::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,
+      rgba(0, 151, 249, 0.4) -5.17%,
+      rgba(0, 106, 175, 0.4) 106.03%);
+  border-radius: 8px;
+}
+
+
+@media screen and (max-width: 560px) {
+  .calenderHeader {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 77%;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+
+  }
+
+  .table {
+    display: flex;
+    flex-direction: row;
+    border: 0.5px #E6E6E6;
+    /* width: 55px; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .mini_container {
+    border: 1px solid #E6E6E6;
+    height: 70px;
+    width: 45px;
+  }
+  .mini_container-header {
+    border: 1px solid #E6E6E6;
+    height: 70px;
+    width: 45px;
+    background: #EAF7FF;
+  }
+  .eventChoose {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .weekoff {
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    height: 18px;
+    align-items: center;
+    background-color: #ECECEC;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 3px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .weekoffStyle {
+    font-size: 5px;
+    color: #334D6E;
+  }
+
+  .holiday {
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: #17CC55;
+    padding: 2px;
+    margin: 1px;
+  }
+
+  .holidayTextStyle {
+    font-size: 7px;
+    color: #fff;
+    margin-top: 1px;
+  }
+
+}
+
+@media screen and (max-width: 690px) {
+  .eventChoose {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 847px) {
+  .monthDateHead {
+    color: #334D6E;
+    width: 100%;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .changeMonthSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .monthDateHead {
+    color: #334D6E;
+    font-size: 12;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .changeMonthSelect {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .monthSelectDiv {
+    width: 40%;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eventChooseDiv {
+    width: 25%;
+    padding-top: 18px;
+  }
+
+  .check_event {
+    height: 20px;
+    width: 70px;
+    border: 0px;
+    border-radius: 10px;
+  }
+
+  .check_all_event {
+    height: 20px;
+    width: 70px;
+    border: 0px;
+    border-radius: 10px;
+  }
+
+  .calenderHeader {
+    height: 30px;
+    width: 96.5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 77%;
+    margin-top: 10px;
+    border-radius: 3px;
+
+  }
+
+  .table {
+    display: flex;
+    flex-direction: row;
+    border: 0.5px #E6E6E6;
+    width: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .mini_container {
+    border: 1px solid #E6E6E6;
+    height: 70px;
+    width: 95px;
+  }
+  .mini_container-header {
+    border: 1px solid #E6E6E6;
+    height: 30px;
+    width: 95px;
+    background: #EAF7FF;
+  }
+  .weekoff {
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    height: 10px;
+    align-items: center;
+    background-color: #ECECEC;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 3px;
+    justify-content: center;
+  }
+
+  .weekoffStyle {
+    font-size: 7px;
+    color: #334D6E;
+  }
+
+  .holiday {
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: #17CC55;
+    padding: 2px;
+    margin: 1px;
+  }
+
+  .holidayTextStyle {
+    font-size: 7px;
+    color: #fff;
+    margin-top: 1px;
+  }
+
+}

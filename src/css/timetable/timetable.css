@@ -1,0 +1,1314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  background: #fafafa;
+}
+
+/*----------------------------------------------------------------Time_table_starts------------------------------------*/
+
+/*  ==================================================TIMETABLE's CHECK COURSE TIME DIV starts=========================*/
+
+/*=========left======*/
+
+.entire_time_table_container {
+}
+.check_course_time {
+  font-family: Lato;
+  width: 100%;
+  height: 70px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border:2px solid red; */
+}
+
+.check_course_inner_padding {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.check_subdiv_left {
+  font-size: 12px;
+  font-family: Lato;
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  /* border:2px solid green; */
+}
+
+.label_Right {
+  margin-left: 20px;
+  font-size: 12px;
+  font-family: Lato;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  border: 1px solid #edeaea;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.month_year {
+  width: 200px;
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #edeaea;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* border:2px solid black; */
+}
+.month_year button {
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+}
+.check_month {
+  padding: 5px;
+}
+
+.check_year {
+  padding: 5px;
+  color: #334d6e;
+  background: #fff;
+}
+.check_dull_line {
+  width: 1px;
+  background: #d7d5ea;
+}
+.check_subject {
+  display: flex;
+  justify-content: center;
+  width: 26%;
+  background: #ffffff;
+  border: 1px solid #edeaea;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.check_subject select {
+  border-radius: 5px;
+  border: 0;
+}
+.check_faculty {
+  display: flex;
+  justify-content: center;
+  width: 26%;
+  background: #ffffff;
+  border: 1px solid #edeaea;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.check_faculty select {
+  border-radius: 5px;
+  border: 0px;
+  outline: none;
+}
+.check_apply {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.check_apply button {
+  width: 90%;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background: #1953e7;
+}
+
+.check_reset {
+  width: 20%;
+  border: 1px solid black;
+}
+
+.tt_red_cross {
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.red_cross_container_tt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red_cross_container_tt img {
+  height: 13px;
+}
+
+.red_cross_text_container_tt {
+  height: 100%;
+  font-size: 10px;
+  color: #fa0505;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*=========right======*/
+
+.check_subdiv_right {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  width: 40%;
+}
+.check_violet {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.violet_square_check {
+  width: 20px;
+  height: 20px;
+  background: #b811f2;
+  border-radius: 2px;
+}
+.yellow_square_check {
+  width: 20px;
+  height: 20px;
+  background: #fcb500;
+  border-radius: 2px;
+}
+.violet_text {
+  margin-left: 2px;
+}
+.check_yellow {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.check_sky {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+.sky_square_check {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #1186f2;
+}
+
+.check_green {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+.green_square_check {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #21eca3;
+}
+.green_text {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+/*===========================CHECK_COURSE_TIME_ENDS============*/
+
+.course_detail_container {
+  display: flex;
+  background: #fafafa;
+  overflow: hidden;
+}
+
+.tt_callendar {
+  /* width: 60%; */
+  width: 50%;
+  /* height: 60vh; */
+  padding: 15px;
+  padding-right: 0;
+  overflow-x: auto;
+  font-size: 8px;
+  color: #334d6e;
+
+  /* border:2px solid green; */
+}
+.inner_container_tt_calendar {
+  /* width:580px; */
+  /* border:1px solid brown; */
+}
+
+.next_to_callendar {
+  /* width: 790px; */
+  width: 50%;
+  height: 65vh;
+  background: #fafafa;
+  padding: 15px;
+  overflow-x: auto;
+  /* border:2px solid red; */
+}
+/* .next_to_callendar::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+} */
+.callendar_next_first_div {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.next_to_callendar h4 {
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #454545;
+  letter-spacing: 0.01em;
+}
+
+.next_to_callendar h5 {
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #454545;
+  letter-spacing: 0.01em;
+}
+.next_to_callendar h6 {
+  font-family: Lato;
+  font-weight: 500;
+}
+.upper_date_notifier_blue {
+  width: 140px;
+  height: 22px;
+  left: 763px;
+  top: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 2px;
+  color: #ffffff;
+  background: #1954e7;
+  border-radius: 2px;
+}
+.callendar_next_each_class_div {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 20vh;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+  /* border:2px solid blue; */
+}
+
+.callendar_next_last_div {
+  height: 10%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.each_class_timings {
+  width: 140px;
+  height: 100%;
+  text-indent: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* border:1px solid red; */
+}
+.each_class_timings h5 {
+  font-family: Lato;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 3.2vh;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+.each_class_timings h6 {
+  font-family: Lato;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #454545;
+}
+
+.class_moto_1 {
+  /* margin-top: 0.5vh; */
+  width: 140px;
+
+  height: 32px;
+  text-align: left;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-indent: 5px;
+  background: #21eca3;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.class_moto_2 {
+  /* margin-top: 0.5vh; */
+  width: 140px;
+  height: 32px;
+  text-align: left;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-indent: 5px;
+  background: #fcb500;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.class_moto_3 {
+  /* margin-top: 0.5vh; */
+  width: 140px;
+  height: 32px;
+  text-align: left;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-indent: 5px;
+  background: #1186f2;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.batch_vertical_div_container {
+  height: 100%;
+  width: 1px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.batch_vertical_div {
+  height: 70%;
+  width: 1px;
+  background: #edeaea;
+}
+
+.subject_teacher_etc {
+  height: 100%;
+  /* width: 550px; */
+  width: 80%;
+  /* padding: 15px; */
+  /* border:5px solid green */
+}
+.tt_teacher_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+.batch_subject_div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  width: 100%;
+  /* border:1px solid black */
+}
+
+.batch_div {
+  width: 50%;
+  /* height: 100%; */
+  padding: 10px;
+  /* border:2px solid yellow; */
+}
+.batch_div_off_exam {
+  width: 99%;
+  height: 80%;
+  padding: 5px;
+  /* border:2px solid blue; */
+}
+
+.subject_div {
+  float: left;
+  width: 48%;
+  height: 100%;
+  display: table;
+}
+
+.teacher_attendance_div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #e5e5e5;
+  /* border:1px solid brown; */
+}
+/* tt_progress_bar 
+{
+  height:40px;
+  border:2px solid green;
+} */
+
+.tt_teacher_div {
+  /* width: 550px; */
+  width: 50%;
+  /* height: 100%; */
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+}
+.tt_teacher_name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+.tt_class_attendance_div {
+  /* width: 550px; */
+  width: 50%;
+  /* height: 100%; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border:2px solid black; */
+}
+.percent_progress_tt_parent {
+  display: flex;
+  /* height:100%; */
+  flex-direction: column;
+  justify-content: center;
+  /* z-index:auto; */
+  /* border:2px solid red; */
+}
+.percent_progress_tt {
+  display: flex;
+  position: relative;
+  /* flex-direction: column; */
+  justify-content: center;
+  height: 50px;
+  /* z-index: -1; */
+  /* border:2px solid blue; */
+}
+
+.percent_progress_inner {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+
+  /* border:2px solid red; */
+}
+.tt_progress_bar {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  /* border:4px solid green; */
+}
+
+.circular_progress_digit {
+  position: absolute;
+  top: 13px;
+  /* left:29px; */
+  height: 15px;
+  width: 15px;
+  /* right: 48px;
+  top: 35%; */
+  /* left:37%; */
+  font-size: 8px;
+  font-weight: bold;
+
+  /* border:5px solid blue; */
+}
+.tt_attendance_and_progress_bar {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  /* border:2px solid green; */
+}
+.tt_attendance_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* border:2px solid red; */
+  /* margin-bottom: 15px; */
+  margin-right: 5px;
+  justify-content: center;
+}
+.tt_attendance_button button {
+  width: 50px;
+  height: 30px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background: #1953e7;
+  /* border:2px solid red; */
+}
+.tt_teacher_and_button_div {
+  width: 550px;
+  width: 50%;
+  /* height: 100%; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.tt_3_teacher_n_teacher_name {
+  height: 100%;
+  /* width: 60%; */
+  width: 80%;
+  display: flex;
+  /* border:2px solid black */
+}
+
+.callendar_next_each_class_div_4 {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  height: 9vh;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.subject_teacher_etc_4 {
+  height: 100%;
+  /* width: 550px; */
+  /* width:100%; */
+
+  padding: 15px;
+}
+.tt_teacher_image_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.each_class_timings_4 {
+  width: 135px;
+  height: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.class_moto_4 {
+  width: 140px;
+  height: 32px;
+  text-align: left;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-indent: 5px;
+  background: #b811f2;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.batch_subject_div_4 {
+  height: 50%;
+  display: flex;
+  width: 100%;
+}
+
+/* ==============================================Timetable_IF_NO_CLASS/SCHEDULE=====================================*/
+.inner_container_no_class_tt {
+  font-family: Lato;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text_n_image_container_no_class {
+  height: 40vh;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text_div_no_class_tt {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/*========================================================time-table-ends============================================================*/
+
+/*======================================================profile_page_starts==========================================================*/
+.profile_page {
+  margin-left: 10px;
+  width: 70%;
+  min-width: 800px;
+  margin: auto;
+  height: 85vh;
+  width: 100%;
+  background: #e5e5e5;
+  border: 20px solid #e5e5e5;
+}
+
+.image_and_contact {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background: white;
+}
+
+.edu_and_oth_details {
+  width: 68.99%;
+  height: 100%;
+  float: left;
+  background: #e5e5e5;
+}
+
+.edu_details_upper_margin {
+  height: 50px;
+}
+
+.education_info {
+  height: 37%;
+  background: white;
+}
+.education_info_left_subdiv {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+.education_info_left_subdiv div {
+  margin-left: 6%;
+  margin-top: 4%;
+  height: 25%;
+  font-family: Lato;
+  font-style: normal;
+  color: black;
+}
+
+.education_info_right_subdiv {
+  float: left;
+  height: 100%;
+  width: 57%;
+}
+
+.education_info_right_subdiv div {
+  margin-top: 4%;
+  height: 39%;
+  font-family: Lato;
+  font-style: normal;
+  color: black;
+}
+
+.profile_page_profile {
+  height: 56%;
+  background: white;
+}
+.up_from_profile_image {
+  height: 50px;
+  background: #e5e5e5;
+}
+
+.up_from_profile_image img {
+  margin-top: 2%;
+  margin-left: 6%;
+}
+.profile_blue_div {
+  height: 33%;
+  background: linear-gradient(180deg, #1b61e6 0%, #1fa2cb 100%);
+  border: 2px solid red;
+}
+
+.blue_sub_top_div {
+  height: 55%;
+  border: 2px solid pink;
+}
+
+.blue_top_left {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.blue_top_right {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+.blue_sub_below_div {
+  height: 45%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  border: 2px solid black;
+}
+
+.blue_name {
+  margin-left: 6%;
+  height: 30%;
+  border: 2px solid black;
+}
+
+.actual_name {
+  margin-left: 6%;
+  height: 80%;
+  border: 2px solid black;
+}
+
+blue_sub_below_div p {
+  font-size: 5px;
+}
+.blue_sub_below_div h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.down_to_profile_div {
+  height: 60%;
+  background: white;
+}
+
+.profile_basic_info_texts_container {
+  margin-left: 6%;
+  height: 100%;
+  border: 2px solid red;
+}
+
+.profile_basic_info_texts_container div {
+  margin-top: 4%;
+  height: 13%;
+  font-family: Lato;
+  font-style: normal;
+  color: #1b66e4;
+  border: 2px solid blue;
+}
+
+/* @media screen and (min-width: 1363px) 
+{
+
+} */
+
+@media screen and (min-width: 1363px) {
+  
+  .circular_progress_digit {
+    position: absolute;
+    height: 15px;
+    /* width: 100px; */
+    /* left: 0;
+    top: 30%; */
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+   
+  }
+
+  .tt_attendance_and_progress_bar {
+   
+    width: auto;
+    
+ 
+}
+
+}
+
+@media screen and (max-width: 1362px) {
+  .tt_callendar {
+  
+    width: 50%;
+   
+    padding: 15px;
+    padding-right: 0;
+    overflow-x: auto;
+    font-size: 8px;
+    color: #334d6e;
+
+   
+  }
+  .inner_container_tt_calendar {
+   
+  }
+
+  .next_to_callendar {
+    width: 790px;
+    
+    height: 65vh;
+    background: #fafafa;
+    padding: 15px;
+    overflow-x: auto;
+    
+  }
+  .callendar_next_each_class_div {
+    display: flex;
+   
+    width: 671px;
+    /* width: 720px; */
+    height: 20vh;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+   
+  }
+  .each_class_timings {
+    width: 135px;
+    height: 100%;
+    text-indent: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+  }
+  .class_moto_3 {
+    width: auto;
+  }
+  .class_moto_1 {
+    width: auto;
+  }
+  .subject_teacher_etc {
+    height: 100%;
+    width: 510px;
+    /* width: 550px; */
+    
+  }
+  .batch_subject_div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    width: 100%;
+   
+  }
+
+  .batch_div {
+    
+    width: 550px;
+    
+  }
+  .batch_div_off_exam {
+   
+    height: 80%;
+    padding: 5px;
+   
+  }
+  .subject_div {
+    float: left;
+    width: 48%;
+    height: 100%;
+    display: table;
+  }
+  .circular_progress_digit {
+    position: absolute;
+    height: 15px;
+    /* width: 100%;
+    left: 0;
+    text-align: center; */
+    top: 34%;
+    font-size: 8px;
+    font-weight: bold;
+
+    
+  }
+  .teacher_attendance_div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+    
+  }
+  .tt_teacher_div {
+    width: 550px;
+   
+    height: 100%;
+  
+    padding-left: 0;
+    display: flex;
+  }
+  .tt_teacher_and_button_div {
+    width: 550px;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tt_class_attendance_div {
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .tt_attendance_and_progress_bar {
+    height: 100%;
+    
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .tt_attendance_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .tt_3_teacher_n_teacher_name {
+    height: 100%;
+    
+    width: 80%;
+    display: flex;
+  }
+  .subject_teacher_etc_4 {
+    height: 100%;
+    width: 550px;
+    
+
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1280px) 
+{
+  .callendar_next_each_class_div {
+    display: flex;
+    
+    width: 646px;
+    height: 20vh;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+ 
+}
+.class_moto_1 {
+  width:120px;
+}
+
+.class_moto_3 {
+  width:120px;
+}
+
+.class_moto_4 {
+  width:120px;
+}
+.class_moto_2{
+  width:120px;
+}
+
+.subject_teacher_etc {
+  height: 100%;
+  width: 495px;
+
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1180px) 
+{
+  .callendar_next_each_class_div {
+    display: flex;
+    
+    width: 618px;
+    height: 20vh;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+ 
+}
+
+.subject_teacher_etc {
+  height: 100%;
+  width: 465px;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 1100px) 
+{
+
+  .class_moto_1 {
+    width:140px;
+  }
+  
+  .class_moto_3 {
+    width:140px;
+  }
+  
+  .class_moto_4 {
+    width:140px;
+  }
+  .class_moto_2{
+    width:140px;
+  }
+  
+  .subject_teacher_etc {
+    height: 100%;
+    width: 80%;
+  
+  }
+  .callendar_next_each_class_div {
+    display: flex;
+ 
+    width: 720px;
+    height: 20vh;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .subject_teacher_etc {
+    height: 100%;
+    width: 550px;
+   
+  }
+  
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .course_detail_container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .tt_callendar {
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .inner_container_tt_calendar {
+    width: auto;
+  }
+  .check_subdiv_left {
+    width: 100%;
+    /* border:2px solid green; */
+  }
+
+  .label_Right {
+    width: 50%;
+  }
+
+  .next_to_callendar {
+    width: 750px;
+    height: auto;
+    overflow-x: auto;
+    overflow: none;
+    overflow-y: hidden;
+  }
+
+
+  .image_div_no_class_tt {
+    height: fit-content;
+    width: min-content;
+  }
+  .callendar_next_each_class_div {
+    /* width: 730px; */
+    /* width:100%; */
+    /* border:1px solid red; */
+  }
+
+  .month_year button {
+    font-size: 1.7vw;
+    font-weight: bold;
+  }
+  .month_year {
+    width: 150px;
+  }
+
+  .callendar_next_each_class_div_4 {
+    width: 730px;
+  }
+  .subject_teacher_etc {
+    width: 590px;
+  }
+  .subject_teacher_etc_4 {
+    width: 590px;
+    padding: 5px;
+  }
+  .each_class_timings {
+    width: 135px;
+  }
+  .subject_teacher_etc {
+    padding: 0px;
+  }
+  .batch_div {
+    /* width: 600px; */
+  }
+
+  .class_moto_1 {
+    width: 100px;
+  }
+
+  .class_moto_2 {
+    width: 100px;
+  }
+  .class_moto_3 {
+    width: 100px;
+  }
+  .class_moto_4 {
+    width: 100px;
+  }
+  .circular_progress_digit {
+    /* left: 43%; */
+  }
+
+  .text_n_image_container_no_class {
+    height: auto;
+    width: auto;
+  }
+  .inner_container_no_class_tt {
+    padding-top: 25px;
+  }
+  .tt_noschedule_image_container {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tt_callendar {
+    overflow-x: auto;
+  }
+
+  .tt_red_cross {
+    justify-content: flex-start;
+  }
+
+  .red_cross_text_container_tt {
+    height: 0;
+    font-size: 0;
+  }
+
+  .red_cross_container_tt img {
+    height: 15px;
+  }
+
+  .month_year button {
+    font-size: 8px;
+    /* border:1px solid #334D6E; */
+  }
+  .check_dull_line {
+    display: none;
+  }
+  .check_faculty {
+    border: 1px solid #334d6e;
+  }
+  .check_faculty select {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .check_subject {
+    border: 1px solid #334d6e;
+  }
+  .check_subject select {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .check_apply button {
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px solid #334d6e;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 400px) {
+  .check_course_inner_padding {
+    min-width: 350px;
+  }
+  .check_subdiv_left {
+    width: 300px;
+  }
+  .label_Right {
+    width: 100px;
+  }
+  .month_year button {
+    border: none;
+  }
+  .check_faculty {
+    border: none;
+  }
+  .check_subject {
+    border: none;
+  }
+
+  .check_apply button {
+    border: none;
+  }
+}
+@media screen and (max-height: 599px) {
+  .callendar_next_each_class_div {
+    height: 125px;
+  }
+  .callendar_next_each_class_div_4 {
+    height: 60px;
+  }
+}

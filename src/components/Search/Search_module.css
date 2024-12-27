@@ -1,0 +1,60 @@
+.visually-hidden {
+    
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.Searchbar{
+    border: 1px solid #D7D5EA;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 205px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.form_Style{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 3px;    
+align-items: center;
+padding-right: 10px;
+}
+.Search_Input{
+    border: none;
+    outline: 0;
+    padding-left: 10px;
+    text-align: left;
+    height: 16px;
+    width: 150px;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color:rgba(51, 77, 110, 1) ;
+    background: none;
+
+}
+.Searchbutton{
+    padding-left: 2px;
+    border: none;
+    margin-top: 3px;
+    background-color: rgba(255, 255, 255, 1);
+  
+
+}
+
+@media screen  and (max-width: 992px ) {
+    .Search_bar{
+        align-items: center;
+        background-color: rgba(255, 255, 255, 1);
+        width: 100%;
+    }
+}

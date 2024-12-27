@@ -1,0 +1,173 @@
+
+.popup-login-div1{
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+
+.popup-login-div{
+    width:350px ;
+    height:fit-content;
+    background-color: white;
+    /* border: 1px solid black; */
+    /* margin-top: 15%;
+    margin-left: 37%; */
+    border-radius: 5px;
+
+}
+
+
+.popup-login{
+    /* border: 1px solid black; */
+    width:300px ;
+    height:fit-content;
+    
+}
+.popup-heading{
+  margin-top: 5px;
+margin-bottom: 10px;
+margin-left:10px ;
+/* border:1px solid red; */
+}
+
+.container-popupLogin {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* border: 1px solid brown; */
+   margin-left:10px ;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container-popupLogin input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+   
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container-popupLogin:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container-popupLogin input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container-popupLogin input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container-popupLogin .checkmark:after {
+      top: 5px;
+      left: 5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .popuplogin-buttons{
+      display: flex;
+       float: right;
+       /* margin-bottom: 5px; */
+       margin-right: 10px;
+       /* border: 1px solid brown; */
+       margin-bottom: 10px;
+      
+
+  }
+
+  .pop-button{
+      margin-right: 5px;
+      border:0;
+      outline: 0;
+      background: blue;
+      padding: 8px;
+
+      font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 10px;
+/* identical to box height, or 77% */
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+cursor: pointer;
+border-radius: 5px;
+
+  }
+
+
+  .pop-button2{
+    margin-right: 5px;
+    border:0;
+    outline: 0;
+    background:crimson;
+    padding: 8px;
+
+    font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 10px;
+/* identical to box height, or 77% */
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+cursor: pointer;
+border-radius: 5px;
+
+}
+
+/* @media screen and (max-width: 700px ) {
+  .popup-login-div{
+    width: 100px; ;
+  
+  }
+ 
+
+
+} */

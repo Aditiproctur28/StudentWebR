@@ -1,0 +1,192 @@
+.exam-maindiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exam-card{
+    /* border: 1px solid blue; */
+    margin: 10px 10px 10px 10px ;
+    height: fit-content;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px 0px #0000001A;
+     /* margin-right: 26px; */
+     width: 97%;
+     overflow-x: auto;
+     margin-left: 20px;
+
+}
+
+.side-margine{
+    /* border:1px solid greenyellow; */
+    height:45px;
+    width: 3px;
+    margin-top: 4px;
+    background-color: hotpink;
+}
+
+.remaining-div{
+    /* border:1px solid green; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+   min-width: 80%;
+
+}
+.exam-name{
+    /* border:1px solid darkorange; */
+    margin-top:10px ;
+    display:grid;
+    width:35%;
+    word-break: break-word;
+}
+.examtopic-name{
+    /* border:1px solid darkmagenta; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.01em;
+
+    color: #454545;
+
+  
+}
+
+
+.examtopic-name2{
+    /* border:1px solid darkmagenta; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.01em;
+
+    color: #454545;
+  margin-top: 9px;
+  
+}
+.examsub-topic{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    /* border: 1px solid black; */
+    letter-spacing: 0.01em;
+    color: #908C8C;
+    /* margin-bottom: 40px; */
+
+}
+
+
+.exam-image-div{
+    /* border:1px solid black; */
+    /* padding: 5px; */
+    display: flex;
+    margin-top: 10px;
+   
+}
+.exam-dateimage{
+    height: 15px;
+    margin-top: 3px;
+   
+}
+.combine-date{
+    /* border: 1px solid tomato; */
+    display: grid;
+    margin-left: 8px;
+}
+.start-date{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.01em;
+
+    color: #908C8C;
+    /* border:1px solid lawngreen; */
+
+
+}
+.start-dateformat{
+   
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+   margin-bottom: 5px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #454545;
+
+    margin-top: 2px;
+}
+
+.exam-button-div{
+    /* border: 1px solid red; */
+    margin-right: 15px;
+}
+
+.exam-button{
+    border: 0;
+    outline: 0;
+  
+    margin-top: 13px;
+    width: 57.16px;
+    height: 30px;
+    left: 1332px;
+    top: 212px;
+
+    background: #1954E7;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;
+
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.No-report{
+font-family: Lato;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* or 140% */
+
+letter-spacing: 0.01em;
+
+color: #E61717;
+margin-top: 13px;
+margin-left: 20px;
+
+}
+
+.exam-button-div2{
+    /* border: 1px solid red; */
+    margin-right: 15px;
+    width: 100px;
+}

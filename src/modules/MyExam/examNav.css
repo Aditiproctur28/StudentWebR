@@ -1,0 +1,171 @@
+
+.exam-nav
+{
+  max-height: 80px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.exam-nav::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.live {
+  min-width: 1000px;
+    background: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    font-size: 16px;
+    /* padding: 0px 20px; */
+    border-bottom: 1px solid  #DDDFE3;
+    /* width: 100%; */
+    
+  }
+  .live1 {
+    background: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    font-size: 16px;
+    /* padding: 0px 20px; */
+    border-bottom: 1px solid  #DDDFE3;
+    /* width: 100%; */
+    padding: 5px;
+    
+  }
+  .back-div{
+    height: 35px;
+    width: 60%;
+    display: flex;
+  }
+  /* .back-div3::-webkit-scrollbar {
+    display: none;
+} */
+  .back-div3{
+    display: flex;
+    overflow: hidden;
+  }
+  .live-menu {
+    display: flex;
+    /* flex: 3; */
+    /* list-style: none; */
+    margin-top: 5px;
+    /* justify-content:start; */
+    /* height: 50px; */
+    /* border: 1px solid pink; */
+    /* margin-left: 10px;   */
+  
+   }
+  
+  
+  
+  .live-links {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    /* border: 1px solid orange; */
+  }
+ 
+  .live-links-active,  .live-links:hover  {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    border-bottom: 5px solid #1954E7;
+    /* margin-bottom: 6%; */
+  }
+
+  .search-div{
+    border: 1px solid green;
+  }
+  .slider-container {
+   /* if you want to have a scrollbar, you can add overflow here */ 
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+    padding: 3px;
+   scroll-behavior: smooth;
+   overflow: hidden;
+  }
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .btn {
+    position: absolute;
+    box-shadow:0 0 13.1px -4.1px grey;
+    padding: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: white;
+    text-align: center;
+    color: blue;
+    border-radius: 50%;
+    margin-right: 18%;
+  }
+  .prev {
+    left: 1rem;
+  }
+  .next {
+    right: 15rem;
+  }
+  .disable {
+    opacity: 0.5;
+   pointer-events: none;
+  }
+  .child {
+    padding: 5px 20px;
+    text-align: center;
+    width: 100%;
+    margin-right: 10px;
+    height: 21px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+  }
+  .navheadding{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #6D6060; 
+    overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  cursor: pointer;
+
+  }
+
+  @media screen  and (max-width: 550px ) {
+    .live1{
+        display: flex;
+        flex-direction: column;
+      
+       
+    }    
+    .Search_bar{
+      margin: 0;
+      width: 250px;
+    }
+  }
+  @media screen  and (max-width: 1000px ) {
+       
+    .Search_bar{
+      margin: 0;
+      width: 250px;
+    }
+  }
+  

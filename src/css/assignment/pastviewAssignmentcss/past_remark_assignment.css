@@ -1,0 +1,142 @@
+.pastview_remark_assignment_div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 24px;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #454545;
+    height: 500px;
+
+}
+.pastview_remark_assignment_div label{
+    font-weight: normal;
+    font-size: 13px;
+    color: #454545;
+}
+
+.pastview_ra_total_marks{
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 24px;
+
+
+}
+.pastview_ra_total_marks_value{
+    margin-top: 7px;
+}
+.pastview_ra_marks_obtained{
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 24px;
+
+
+}
+.pastview_ra_marks_obtained_value{
+    margin-top: 7px;
+}
+.pastview_ra_remark{
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.pastview_ra_remark_value{
+    margin-top: 7px;
+}
+.pastview_ra_solution{
+    margin-top: 24px;
+
+
+}
+.pastview_ra_salution_pdf{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow:auto;
+}
+
+/* ......................................... Solution PDF CSS ...............................................*/
+
+.pastview_sp_maindiv{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-left: 11px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+
+}
+.pastview_sp_maindiv .pastview_sp_downlode {
+    display: flex;
+}
+.pastview_sp_maindiv:hover .pastview_sp_downlode{
+    padding-right: 5px;
+    display: flex;
+}
+.pastview_sp_docicon{
+
+}
+.pastview_sp_details{
+    margin-left: 10px;
+    text-align: left;
+    flex: 2;
+
+}
+.pastview_sp_name{
+ width: 200px;
+ word-break: break-all;
+}
+.pastview_sp_pdfsize{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pastview_sp_sizetitle{
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8B8B8B;
+}
+.pastview_sp_sizevalue{
+    margin-left: 10px;
+
+}
+
+.pastview_sp_downlode button{
+    background: #0FAA0C;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 30px;
+    width: 94px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    
+}
+.solutionUrl{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.solutionUrl a {
+    color: blue;
+    cursor: pointer;
+    font-size: 12px;
+}

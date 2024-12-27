@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_5" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Linkdin" transform="translate(-806 -667)">
+    <g id="Group_339" data-name="Group 339" transform="translate(-2819 4338)">
+      <g transform="matrix(1, 0, 0, 1, 3625, -3671)" filter="url(#Ellipse_5)">
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="15" cy="15" r="15" transform="translate(9 7)" fill="#0077b5"/>
+      </g>
+      <g id="Icon_feather-linkedin" data-name="Icon feather-linkedin" transform="translate(3637.659 -3659.924)">
+        <path id="Path_13" data-name="Path 13" d="M20,12a5,5,0,0,1,5,5v5.839H21.673V17a1.668,1.668,0,1,0-3.336,0v5.839H15V17a5,5,0,0,1,5-5Z" transform="translate(-5.327 -3.995)" fill="#fff"/>
+        <path id="Path_14" data-name="Path 14" d="M3,13.5H6.336V23.509H3Z" transform="translate(0 -4.661)" fill="#fff"/>
+        <path id="Path_15" data-name="Path 15" d="M6.336,4.668A1.668,1.668,0,1,1,4.668,3,1.668,1.668,0,0,1,6.336,4.668Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

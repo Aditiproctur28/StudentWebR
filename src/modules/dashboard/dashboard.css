@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+.dashboard_container {
+  background: #fafafa;
+  height: 80vh;
+  /* margin-top: 10px; */
+  /* border: 2px solid red; */
+}
+
+.outter-cover-student-homepage {
+  height: calc(100vh - 120px);
+  background: url(../../assets/home-page.png) no-repeat #fff;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.inner-cover-student-homepage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 42px;
+  height: calc(100vh - 120px);
+}
+
+.inner-cover-student-homepage .name-student-homepage {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  /* or 167% */
+  padding: 0px;
+  padding-top: 42px;
+  letter-spacing: 0.01em;
+  color: #0097f9;
+}
+
+.inner-cover-student-homepage .qoutes-student-homepage {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 225% */
+  /* margin-top: auto; */
+  margin-top: 20px;
+  letter-spacing: 0.01em;
+  margin-bottom: 40px;
+  color: #8b7c7c;
+}
+
+.clock-student-homepage {
+  border-radius: 100%;
+  background: #f5f6fb;
+  box-shadow: -6px -6px 16px #f8f8f8, 6px 6px 16px rgba(0, 0, 0, 0.12),
+    inset -6px -6px 11px #ffffff, inset 6px 6px 16px 1px rgba(0, 0, 0, 0.06);
+  width: 200px;
+  /* margin-top: 30px; */
+  height: 200px;
+}
+
+.wrap-student-homepage {
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.minute-student-homepage,
+.hour-student-homepage {
+  position: absolute;
+  height: 55px;
+  width: 6px;
+  margin: auto;
+  top: -28%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.minute-student-homepage {
+  position: absolute;
+  height: 75px;
+  width: 3px;
+  top: -36.5%;
+  left: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  transform: rotate(90deg);
+}
+
+.second-student-homepage {
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  margin: auto;
+  top: -40%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 4px;
+  background: #ff4b3e;
+  transform-origin: bottom center;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.dot-student-homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background: white;
+  border: 2px solid #1b1b1b;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.mark-time-6-student-homepage {
+  position: absolute;
+  width: 13px;
+  height: 0px;
+  left: 50%;
+  top: 96%;
+  display: block;
+  background-color: #8a8a8a;
+  border: 1px solid #8a8a8a;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.mark-time-12-student-homepage {
+  position: absolute;
+  width: 13px;
+  height: 0px;
+  left: 50%;
+  top: 4%;
+  display: block;
+  background-color: #8a8a8a;
+  border: 1px solid #8a8a8a;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.mark-time-3-student-homepage {
+  position: absolute;
+  width: 14px;
+  height: 0.5px;
+  left: 93%;
+  display: block;
+  background-color: #8a8a8a;
+  top: 50%;
+  border: 1px solid #8a8a8a;
+}
+
+.mark-time-9-student-homepage {
+  position: absolute;
+  width: 14px;
+  height: 0.5px;
+  left: 1.5%;
+  display: block;
+  top: 50%;
+  background-color: #8a8a8a;
+  border: 1px solid #8a8a8a;
+}
+
+.time-student-homepage {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 50px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.time-student-homepage sup {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.date-student-homepage {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  margin-bottom: 8px;
+  color: #000000;
+  margin-left: 20px;
+}
+
+/* Media Quries Responsive Design */
+@media (max-width: 850px) {
+  .outter-cover-student-homepage,
+  .inner-cover-student-homepage {
+    height: auto;
+    min-height: calc(100vh);
+  }
+
+  .inner-cover-student-homepage {
+    width: 100%;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .time-student-homepage,
+  .date-student-homepage {
+    margin-left: 0px;
+  }
+
+  .inner-cover-student-homepage .qoutes-student-homepage {
+    margin: auto 16px;
+  }
+
+  .outter-cover-student-homepage {
+    background: #fff;
+  }
+  .dashboard_container{
+    margin-top: 40px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px){
+  .qoutes-student-homepage{
+    margin:0;
+  }
+}

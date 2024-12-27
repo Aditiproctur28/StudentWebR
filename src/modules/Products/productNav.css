@@ -1,0 +1,116 @@
+.live-prod{
+    background: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0px 20px;
+    /* border:1px solid black; */
+    /* width: 100%; */
+    overflow-x: auto;
+  }
+  
+  .live-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 60px;
+    width: 100%;
+    min-width: 600px;
+    border: 1px solid white;
+    margin-right: 20px;
+  }
+  .live-menu {
+    display: flex;
+       width: fit-content;
+    justify-content:start;
+    height: 60px;
+    margin-left: 10px;
+    /* border:1px solid red; */
+  }
+  
+  .live-item {
+    display:flex;
+    margin-right: 30px;
+    /* border:1px solid brown; */
+  }
+  .live-links {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    /* border:1px solid red; */
+  }
+  .link-sub{
+    display:flex;
+    font-size: 12px;
+    border: 1px solid #1954E7;
+    color: #1954E7;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 0 2px;
+    width: 10px;
+    align-self: center;
+    justify-content: center;
+  }
+  .live-links-active,  .live-links:hover  {
+    display:flex;
+    color:#334D6E;
+    text-decoration: none;
+    padding: 2px 0px;
+    align-items: center;
+    border-bottom: 5px solid #1954E7;
+    /* border:1px solid blue; */
+  }
+  
+
+  .More-Products{
+    /* margin-top: 10px; */
+      height: fit-content;
+      padding: 5px;
+      background: linear-gradient(90deg, #FAFF02 -23.31%, #2CB7E5 69.92%);
+      border-radius: 5px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+     /* border: 1px solid darkblue; */
+     /* margin-right: 10px; */
+       display: flex;
+      /* width: 270px; */
+      color: #FFFFFF;
+
+  }
+
+  .click-me{
+    margin-left: 8px;
+    margin-right: 8px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* line-height: 18px; */
+   /* width: fit-content; */
+    text-transform: capitalize;
+    padding: 3px;
+    color: #334D6E;
+    background-color: cornsilk;
+    border:0;
+    border-radius:5px;
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .buy-products{
+    margin-top: 4px;
+    margin-left: 8px;
+    /* border:1px solid black; */
+    /* display: flex; */
+    width: fit-content;
+  }

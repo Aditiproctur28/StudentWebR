@@ -1,0 +1,176 @@
+*{
+    font-family: Lato;
+
+}
+.Ongoing_Class_Main_Div{
+    width: calc(25% - 32px);
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+    border: 1px solid #cccc;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 5px 5px 5px;
+}
+.Image_set{ 
+    width: 118px;
+    height: 24px;
+    background-color: rosybrown;
+    margin-top: 0px; 
+    padding-top: 2px;
+    clip-path: polygon(100% 00%, 00% 800%, 00% 100%, 00% 100%, 0% 100%, 00% 0%);
+}
+.Image_set p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color:#fafafa;
+    margin-left: 16px;
+}
+
+.Inner_Div_Set_Margin{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+/* 
+.time_Img{
+    position: absolute;
+      
+} */
+
+.Class_Name{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    height: 50px;
+    color: #454545;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid #DDDFE3;
+
+}
+.Course_Name{
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.Course_Name p{
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+letter-spacing: 0.01em;
+color: #454545;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.Subject_Name{
+    height: 35px;
+    border-bottom: 1px solid #DDDFE3;
+    display: flex;
+    align-items: center;
+}
+
+.Subject_Name p{
+color: #454545;
+padding-top: 2px;
+padding-bottom: 2px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0.01em;
+color: #908C8C;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.Date{
+    height: fit-content;
+    border-bottom: 1px solid  #DDDFE3 ;
+   
+}
+p{
+    margin: 0px;
+    word-break: break-word;
+}
+
+.Status{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    color: #8B8B8B;
+    background: #F9EAFF;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+   height: 27px;
+   padding: 0px 9px 0px 9px;
+
+}
+.Status_value{
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+letter-spacing: 0.01em;
+color: #1954E7;
+
+}
+.Main_Review{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.Review_and_Submit{
+font-weight: 600;
+font-size: 13px;
+line-height: 10px;
+padding: 10px;
+height: 30px;
+border:none;
+background: #1954E7;
+border-radius: 5px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 46px;
+height: fit-content;
+float:right;
+display: flex;
+justify-content: center;
+
+}
+@media screen and (min-width: 992px) and (max-width:1290px) {
+    .Ongoing_Class_Main_Div{
+        width: calc(33.33% - 32px);
+        height: fit-content;
+    
+        
+    
+    }
+}
+
+@media screen and (min-width: 520px ) and (max-width: 992px ) {
+    .Ongoing_Class_Main_Div{
+        width: calc(50% - 32px);
+        height: fit-content;
+    }
+}
+
+@media screen  and (max-width: 520px) {
+    .Ongoing_Class_Main_Div{
+        width: calc(100% - 32px);
+        height: fit-content;
+    }
+}

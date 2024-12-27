@@ -1,0 +1,115 @@
+.subject-container{
+    /* border:1px solid blueviolet; */
+    background-color:#fafafa ;
+    display: flex;
+   
+    
+    }
+    
+.container-studym{
+    /* border: 1px solid black; */
+    width: 100%;
+   margin-bottom: 50px;
+    height: fit-content;
+   
+}
+
+.divvvvvva{
+    border-bottom:1px solid #CCC;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-of-files{
+    font-family: Lato;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.divvvvvva2{
+    /* border:1px solid magenta; */
+    margin-left:22px ;
+    padding: 5px;
+}
+.second-div{
+    /* border:1px solid red; */
+    margin-left: 20px;
+}
+
+
+.subtopicname{
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+}
+.buttonsub{
+    border:0;
+    background: none;
+    cursor:pointer;
+}
+
+
+
+
+    .study-form_input{
+        display: flex;
+        flex-direction: row;
+       
+       
+    }
+    
+    .study-filter-dropdown select{
+        border: 0;
+        outline: 0;
+        width: 150px;
+        margin-top: 5px;
+        margin-left: 2px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight:normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        color: #334D6E;
+        padding: 5px;
+    }
+
+    .study-filter-dropdown{
+        height: 35px;
+        margin-left: 20px;
+        align-items: center;
+        width: 178px;
+        border: 1px solid #EDEAEA;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-weight: 400;
+        color: rgba(51, 77, 110, 1) ;
+        text-align: center;
+         background-color: white;
+         /* border: 1px solid violet; */
+         margin-bottom: 5px;
+        
+
+    }
+
+    @media screen and (max-width: 700px ) {
+        .subject-container{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+           
+        }
+        .second-div{
+            margin-left: 10px;
+        }
+    
+
+    }

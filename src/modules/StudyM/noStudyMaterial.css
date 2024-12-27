@@ -1,0 +1,39 @@
+.up {
+    display:flex;
+   
+    width: 100%;
+    /* align-items:center; */
+    min-height: 500px;
+  }
+.up-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background: #fafafa;
+    /* border:1px solid blue; */
+  }
+
+  .up-text1{
+  text-align: center;
+font-style: Lato;
+font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #334D6E;
+  
+  /* margin-bottom: 10%; */
+  /* border:1px solid crimson  ; */
+
+}
+
+ /* .image-div{
+  border:1px solid blue;
+  margin-bottom: 50px;
+}  */
+

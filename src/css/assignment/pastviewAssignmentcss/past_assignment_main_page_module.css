@@ -1,0 +1,461 @@
+.hrblur{
+    border: 1px solid #cccccc;
+}
+
+.pastview_assignment_details_container{
+    margin-left: 32px;
+    margin-right: 32px;
+    height: 100vh;
+    margin-top: 27px;
+    
+}
+
+.pastview_assignment_details_main_div{
+    display: inline-flex;
+    width: 100%;
+   
+}
+.pastview_new_assignment_details_div{
+    width: calc( 33.33% - 5px);
+    display: inline-block;
+    
+}
+.pastview_new_assignment_details_name{
+    height: 50px;
+    width: 142px;
+
+
+}
+.pastview_new_assignment_details_name p{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #454545;
+    margin: 0;
+
+}
+.pastview_submit_assignment_details_unreach{
+    display: flex;
+    align-items: center;
+}
+.pastview_new_assignment_details_remark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+
+}
+.pastview_new_assignment_details_true{
+    align-items: center;
+    display: flex;
+
+}
+.pastview_new_assignment_details_line{
+    width: calc( 100% - 30px);
+    align-items: center;
+
+}
+
+
+
+.blure{
+    height: 50px;
+    width: 271px;
+    color:#cccccc
+}
+
+
+
+
+
+.pastview_submit_assignment_details_div{
+    width: calc( 33.33% - 5px);
+    display: inline-block;
+
+    
+}
+.pastview_submit_assignment_name{
+    height: 50px;
+    color:#454545;
+    width: 338px;
+}
+.pastview_submit_assignment_name p{
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.pastview_submit_assignment_details_remark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+
+}
+.pastview_submit_assignment_details_true{
+    display: flex;
+    align-items: center;
+
+}
+.pastview_submit_assignment_details_line{
+    width: calc( 100% - 30px);
+    align-items: center;
+
+}
+.pastview_attach_file_main_div{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pastview_div_div{
+    height: 466px;
+    border-left: 3px solid #e6e3e3;
+    margin-left: 12px;
+}
+.Assignmentsubmitmaindiv{
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+.pastview_attach_file{
+    background: #FBFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 150px;
+    height: 63px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   cursor: pointer;
+ 
+
+}
+.pastview_attach_file_img{
+    margin-left: 10px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.attach_button{
+    outline: 0;
+    border: 0;
+}
+.pastview_attach_file_file{
+    margin-left: 10px;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    /* color: #454545; */
+    display: flex;
+    align-items: center;
+    height: 36px;
+    
+}
+.pastview_attach_file_file p{
+    color: #454545 ;
+}
+.attach_buttonon_click{
+border: 2px solid #1953E7;
+cursor: pointer;
+}
+.pastview_attach_link{
+    background: #FBFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 150px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.pastview_submit_assignment_div{
+    margin-left: 20px;
+   
+}
+
+.pastview_remark_assignment_details_div{
+    width: calc( 33.33% - 5px);
+    display: inline-block;
+    
+}
+
+.review{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CCCCCC;
+    min-height: 400px;
+
+}
+.pastview_remark_assignment_name{
+    height: 50px;
+    overflow-y: 0;
+    width: 271px;
+}
+.pastview_remark_assignment_name p {
+    font-weight: 500;
+    font-size: 16px;
+    overflow-y: 0;
+    text-transform: capitalize;
+    color:#454545;
+
+}
+.pastview_remark_assignment_details_remark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+
+}
+.pastview_remark_assignment_details_true{
+    display: flex;
+    align-items: center;
+
+
+}
+.pastview_remark_assignment_details_line{
+    width: calc( 100% - 60px);
+    align-items: center;
+
+}
+.pastview_review{
+    text-align: center;
+    margin-top: 50%;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #CCCCCC;
+
+}
+
+.pastview_main_button{
+     align-items: center;
+    text-align: center; 
+    height: 50px;
+    display: flex;
+}
+.past_go_back{
+    float: right;
+    margin-top: 50px;
+    background: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #A2A4AA;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 81px;
+    height: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #818388;
+    line-height: 10px;
+
+}
+
+
+
+.main_button{
+    align-items: center;
+   text-align: center; 
+   height: 50px;
+   display: flex;
+   bottom: 0;
+   width: 62%;
+   position: fixed;
+   justify-content: flex-end;
+   
+}
+.main_buttonpast{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    width: 100%;
+}
+/* .main_button_past{
+    position: fixed;
+    bottom: 0;
+    width: 34%;
+    display: flex;
+    justify-content: flex-end;
+} */
+.go_back_past{
+    font-weight: 600;
+   font-size: 13px;
+   line-height: 10px;
+   letter-spacing: 0.01em;
+   text-transform: capitalize;
+   background-color: #fafafa;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #818388;
+   border: 1px solid #A2A4AA;
+   box-sizing: border-box;
+   border-radius: 5px;
+   /* position: absolute; */
+   height: 35px;
+   width: 80px;
+   cursor: pointer;
+
+}
+.dontshow{
+    width: 0px;
+}
+.go_back{
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 10px;
+   letter-spacing: 0.01em;
+   text-transform: capitalize;
+   background-color: #fafafa;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #818388;
+   border: 1px solid #A2A4AA;
+   box-sizing: border-box;
+   border-radius: 5px;
+   height: 35px;
+   margin-right: 16px;
+   width: 80px;
+   cursor: pointer;
+}
+.save_as_draft{
+   margin-right: 16px;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 10px;
+   letter-spacing: 0.01em;
+   text-transform: capitalize;
+   color: #1953E7;
+   background: #DAE4FF;
+   border-radius: 5px;
+   height: 35px;
+   outline: 0;
+   border: 0;
+   width: 120px;
+   cursor: pointer;
+}
+.submit_assignment{
+   background: #1953E7;
+   border-radius: 5px;font-weight: 600;
+   font-size: 13px;
+   height: 35px;
+   outline: 0;
+   border: 0;
+   line-height: 10px;
+   letter-spacing: 0.01em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   width: 150px;
+   cursor: pointer;
+}
+.pastview_save_as_draft{
+    margin-right: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #1953E7;
+    background: #DAE4FF;
+    border-radius: 5px;
+    height: 35px;
+    outline: 0;
+    border: 0;
+}
+.pastview_submit_assignment{
+    background: #1953E7;
+    border-radius: 5px;font-weight: 600;
+    font-size: 13px;
+    height: 35px;
+    outline: 0;
+    border: 0;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.pastview_complete{
+    margin-left: -40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    height: 35px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #22D08D;
+
+}
+.pastview_back_button{
+    margin-top: 50px;
+    float: right;
+}
+@media screen and (max-width: 1100px) {
+    .pastview_assignment_details_main_div{
+        display: inline-block;
+        
+    }
+    .pastview_submit_assignment_details_div{
+        width: calc( 50% - 5px);
+        float: right;   
+    }
+    .pastview_remark_assignment_details_div{
+        width: calc( 50% - 5px);
+    }
+
+    .pastview_new_assignment_details_div{
+        width: calc( 50% - 5px);   
+    }
+    .pastview_attach_file{
+        width: 180px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .pastview_assignment_details_main_div{
+        display: inline-block;
+    }
+    .pastview_submit_assignment_details_div{
+        width: calc( 100% - 5px);   
+    }
+    .pastview_remark_assignment_details_div{
+        width: calc( 100% - 5px);
+    }
+
+    .pastview_new_assignment_details_div{
+        width: calc( 100% - 5px);
+    }
+    .pastview_attach_file{
+        width: 180px;
+    }
+
+
+}
+@media screen and (max-width: 400px) {
+   
+    .Assignmentsubmitmaindiv{
+        margin-left: 10px;
+    }
+}

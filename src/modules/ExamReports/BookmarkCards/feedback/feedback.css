@@ -1,0 +1,33 @@
+.feedbacktitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #8B8B8B;
+    margin-left: 11px;
+}
+
+.stateLine {
+    border: 1px solid #EBEBEB;
+    width: 90%;
+    height: 0px;
+    margin-left: 11px;
+    background-color: #EBEBEB;
+
+}
+.feedbackmsg {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #2A3039;
+    margin-top: 18px;
+    margin-left: 36px;
+}
+.feedback>p{
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+}

@@ -1,0 +1,75 @@
+.doc-filter-container{
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: left;
+    height: fit-content;
+    overflow-x: auto;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.doc-filter-reset{ 
+    margin-left: 5px;
+    height:35px; 
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     /* min-width:600px ; */
+     /* border: 1px solid blue; */
+    
+    
+}
+
+.doc-filter-reset button{
+    font-family: Lato;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: center;
+   color: red;
+   letter-spacing: 0.01em;
+   border:0;
+   outline: 0;
+   background: none;
+   cursor: pointer;
+   /* margin-right: 25px; */
+}
+.doc-form_input{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.doc-filter-dropdown select{
+    border: 0;
+    outline: 0;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+    padding: 5px;
+}
+.doc-filter-dropdown{
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    width: 178px;
+    border: 1px solid #EDEAEA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: rgba(51, 77, 110, 1) ;
+    text-align: center;
+    background-color: white;
+
+}

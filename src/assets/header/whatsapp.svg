@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_5" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Whatsapp" transform="translate(-927 -668)">
+    <g id="Group_342" data-name="Group 342" transform="translate(-2698 4339)">
+      <g transform="matrix(1, 0, 0, 1, 3625, -3671)" filter="url(#Ellipse_5)">
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="15" cy="15" r="15" transform="translate(9 7)" fill="#22aa68"/>
+      </g>
+    </g>
+    <path id="Icon_ionic-logo-whatsapp" data-name="Icon ionic-logo-whatsapp" d="M10.389,2.25A7.819,7.819,0,0,0,2.54,10.038,7.708,7.708,0,0,0,3.667,14.06L2.25,18.239,6.6,16.858a7.862,7.862,0,0,0,11.643-6.82A7.819,7.819,0,0,0,10.389,2.25ZM14.292,13a2.027,2.027,0,0,1-1.388.895c-.368.02-.379.285-2.385-.587A8.189,8.189,0,0,1,7.21,10.176a3.849,3.849,0,0,1-.741-2.086,2.224,2.224,0,0,1,.764-1.632.769.769,0,0,1,.544-.229c.158,0,.26,0,.377,0s.292-.024.444.38.515,1.4.562,1.5a.364.364,0,0,1,0,.349,1.363,1.363,0,0,1-.213.324c-.1.112-.22.251-.314.337s-.213.2-.1.4A6.006,6.006,0,0,0,9.6,10.937a5.476,5.476,0,0,0,1.574,1.046c.2.107.314.1.436-.033s.522-.562.664-.755.273-.156.455-.083,1.148.591,1.344.7.328.162.375.246A1.648,1.648,0,0,1,14.292,13Z" transform="translate(941.006 679.756)" fill="#fff"/>
+  </g>
+</svg>

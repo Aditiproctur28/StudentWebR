@@ -1,0 +1,180 @@
+*{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.upcoming_classes_main_div{
+    width: calc(25% - 38px);
+    display: inline-block;
+    /* height: fit-content; */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);;
+    background: #FFFFFF;
+    border-radius: 0px 5px 5px 5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+
+}
+.image_set{
+    width: 140px;
+    height: 24px;
+    margin-top: 0px; 
+    padding-top: 2px;
+    background-color: #FB9860;
+    clip-path: polygon(100% 00%, 00% 800%, 00% 100%, 00% 100%, 0% 100%, 00% 0%);
+}
+.image_set p{
+font-weight: 600;
+font-size: 12px;
+padding-left: 16px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+.cantainer{
+    margin-left: 16px;
+    margin-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: fit-content;
+}
+.courese_name_div{
+    /* margin-bottom: 8px; */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DDDFE3;
+}
+.courese_name_div p{
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #454545;
+}
+.class_name_div{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DDDFE3;
+}
+.class_name_div p{
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 20px; */
+    letter-spacing: 0.01em;
+    color: #454545;
+}
+.facality_information_div{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+    border-bottom: 1px solid #DDDFE3;
+    align-items: center;
+}
+.facality_img img{
+    width: 25.07px;
+    height: 24px;
+}
+.facality_name{
+    margin-left: 5px;
+
+}
+.facality_name p{
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8B8B8B;
+}
+.time_card_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.time_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.time_card_left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time_card_left p{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #1954E7;
+    margin-left: 5px;
+}
+.time_card_left img{
+    height: 17px;
+    width: 17px;
+
+}
+
+/* .time_card_right{
+
+} */
+.time_card_right p{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #454545;
+    margin-left: 5px;
+}
+
+.join_button_div button{
+    background: #1954E7;
+    border-radius: 5px;
+    color: #FFFFFF;;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 10px;  
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 30px;
+    outline: 0;
+    border: 0;
+}
+
+.join_button_div button{
+    /* padding: 10px; */
+    width: 57.16px;
+    height: 30px;
+}
+@media screen and (min-width: 992px) and (max-width:1290px){
+    .upcoming_classes_main_div{
+        width: calc( 33.33% - 38px);
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 520px ) and (max-width: 992px ) {
+    .upcoming_classes_main_div{
+        width: calc(50% - 38px);
+        height: fit-content;
+    }
+}
+
+@media screen  and (max-width: 520px) {
+    .upcoming_classes_main_div{
+        width: calc(100% - 38px);
+        height: fit-content;
+    }
+}

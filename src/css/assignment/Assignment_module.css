@@ -1,0 +1,187 @@
+
+.hide{
+    display: none;
+    
+}
+.Assignment_label_design{
+    border-style: inset;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: 'bold';
+    line-height: 18px;
+    padding: 2px 3px;
+/* identical to box height, or 112% */
+   letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #334D6E;
+
+background: #FCFDFF;
+border: 1px solid #1B61E6;
+box-sizing: border-box;
+border-radius: 2px;
+ }
+.assignment_container {
+    height: auto;
+    /* margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 1%; */
+    
+    }
+.Inactive{
+    color:rgba(51, 77, 110, 1);
+    background: transparent;
+    border: none;
+    padding-bottom: 12px;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    margin-left: 30px;
+    width: fit-content;
+    height: 40px;
+   
+    
+   }
+   .Active{
+    color:rgba(51, 77, 110, 1);
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid rgba(25, 84, 231, 1);
+    margin-top: 25px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    margin-left: 30px;
+    width: fit-content;
+    height: 40px;
+ }
+ .class_count_lable{
+    outline: 0;
+    text-align: center;
+    color: rgba(27, 98, 230, 1);
+    width: 22px;
+    height: 19px;
+    padding: 3px;
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    line-height: 18px;
+    border: 1px solid #1B61E6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 8px;
+ }
+   .Assignment_button_Bar{
+       width: 100%;
+       margin-top: 1%;
+       background-color: rgba(255, 255, 255, 1);
+       height:fit-content;
+       border-bottom: 1px solid #DDDFE3;
+       
+       
+       
+   }
+   .Assignment_Select_bar{
+       margin-top: 15px;
+       margin-left: 30px;
+       margin-bottom: 18px;
+       border-radius: 5px;
+       
+       
+   }
+   .Select_status{
+       height: 35px;
+       text-align: "center";
+       width: 178px;
+      border: 0;
+       border-radius: 5px ;
+       box-sizing: border-box;
+       font-family: Lato;
+       font-weight: 400;
+       font-style: normal;
+       color: rgba(51, 77, 110, 1);
+       outline: 0;
+       cursor: pointer;
+
+   }
+   .Assignment_Search_bar_button{
+      margin-right: 30px; 
+   }
+   .Assignment_Search_bar{
+       display: flex;
+       width: 100%;
+       flex-direction: row;
+       justify-content: space-between;
+       border-bottom: 1px solid #DDDFE3;
+       border-top: 1px solid #DDDFE3;
+       align-items: center;
+       background-color: rgba(255, 255, 255, 1);
+   }
+   .assignment_main_div{
+       margin-left: calc(50% - 304px);
+       margin-top: 25px;
+       
+   }
+   .no_assignment{
+       margin-left: 130px;
+       margin-bottom: 34px;
+       font-family: Open Sans;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 24px;
+       line-height: 33px;
+/* identical to box height */
+
+
+letter-spacing: 0.01em;
+
+color: #334D6E;
+
+       
+   }
+
+   @media screen and (max-width: 520px) {
+    
+    .Assignment_Search_bar{
+        
+        flex-direction: column;
+       
+    }
+    .Assignment_Search_bar_button{
+        width: calc(100% - 60px);
+        margin: 0;
+        margin-bottom: 15px;
+     }
+     .Assignment_Select_bar{
+        width: calc(100% - 60px);
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+     }
+     .form_Style{
+         width: 100%;
+     }
+     .Search_bar{
+         width: 100%;
+     }
+     .Select_status{
+         width: 100%;
+        
+     }
+ 
+}

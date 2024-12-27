@@ -1,0 +1,76 @@
+.back-div{
+    /* border:1px solid black; */
+    background: #FFFFFF;
+    padding:10px;
+
+   /* border-bottom:1px solid #DDDFE3; */
+   display: flex;
+   justify-content: space-between;
+}
+.back-div2{
+    margin-left: 10px;
+}
+
+.arrow-exam{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-heading-exam{
+    /* border:1px solid black; */
+    padding: 1px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    
+    color: #6D6060;
+    
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right:10px ;
+    padding: 4px;
+    padding-left: 8px;
+    line-height: 16px;
+    cursor: pointer;
+
+}
+
+.examdate-filter{
+    border:1px solid blue;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #334D6E;
+    margin-right: 16px;
+    border: 1px solid #D7D5EA;
+    height: 35px;
+    /* width: 155px; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+
+}
+
+.examdate-img{
+    margin: 8px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+
+}
+
+.examdate-heading{
+    /* margin-bottom: 20px; */
+    /* border: 1px solid blue; */
+    margin-top: 8px;
+    margin-left: 6px;   
+}

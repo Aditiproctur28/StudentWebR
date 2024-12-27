@@ -1,0 +1,459 @@
+.liveclassescontainer{
+    background-color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.button_bar{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255,1);
+    display: flex;
+    margin-top: 15px;
+    /* display: inline-block; */
+    border-bottom: 1px solid #DDDFE3;
+}
+
+.inactive_button{
+    margin-top: 15px;
+    color:rgba(51, 77, 110, 0.9);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    height: 35px;
+    background: #FFFFFF;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #FFFFFF;
+    
+}
+
+.active_button{
+    margin-top: 15px;
+    color:rgba(51, 77, 110, 0.9);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    height: 35px;
+    background: #FFFFFF;
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgba(25, 84, 231, 1);    
+}
+
+
+
+.class_found{
+    margin-left: 32px;
+    padding-top: 15px;
+    
+}
+.class_found p{
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    color: #454545;
+
+}
+/******************************************* modification *****************************/
+
+
+.react-calendar {
+    height: 340px;
+    width: 300px;
+}
+
+.react-calendar__month-view__days__day--weekend{
+    color: black;
+}
+.react-calendar__navigation{
+    border-bottom: 1px solid #E1E4ED;
+}
+.react-calendar__navigation__label{
+    font-weight: bold;
+}
+/* .react-calendar__tile {
+padding: 0px;
+} */
+
+.react-calendar__tile--active {
+    border-radius: 5px;
+}
+.react-calendar__tile--now{
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.Calender_Button_Style{
+    display: flex;
+     margin-left: 32px;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    /* z-index: 50; */
+    color: black;
+}
+.Calender_Button_Style_button{
+    width:fit-content;
+    height:35px;
+    border:1px solid #EDEAEA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    font-weight: 400;
+    color:rgba(51, 77, 110, 1) ;
+}
+.Calender_Button_Style_button img{
+    margin-top: 2px;
+    margin-left: 14px;
+    float: left;
+
+}
+
+/* .Search_Button_Style{
+    margin-right: 30px;
+} */
+   
+option{
+    position:absolute;
+    
+    
+}
+
+.Hide{
+    display: none;
+}
+
+.Show{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    overflow: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 48px;
+    padding: 5px 0px 10px 0px;
+}
+
+.Calender_Only{
+    display: flex;
+    width: 610px;
+    
+}
+.date_input{
+    margin-top: 10px;
+    background-color: #F1F1F1;
+
+}
+.date_input h5{
+    margin-bottom: 1px;
+    color:#000000;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.To_Date_Input{
+    height:15px;
+    width: calc( 100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #F1F1F1;
+    border:0;
+    border-bottom:  2px solid #1953E7;
+    outline: 0;
+}  
+
+.From_Date_Input{
+    height:15px;
+    width: 100%;
+    background-color: #F1F1F1;
+    border: 0;
+    outline: 0;
+    
+}
+
+.Cancle_Date_Button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color:  #1953E7;
+    width: 73px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #1953E7;
+    box-sizing: border-box;
+    margin-top: 24px;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.Apply_Date_Button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 73px;
+    height: 35px;
+    background: #1953E7;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 24px;
+    border: 1px solid #1953E7;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.live_class_label{
+    border: 2px;
+    margin-left: 8px;
+    color: rgba(27, 98, 230, 1);
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    line-height: 18px;
+    border: 1px solid #1B61E6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 20px;
+    width: 22px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 4px; */
+    display: flex;
+
+}
+.live_class_label_first{
+    border: 2px;
+    margin-left: 8px;
+    color: rgba(27, 98, 230, 1);
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    line-height: 18px;
+    border: 1px solid #1B61E6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 20px;
+    width: 22px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 4px; */
+    display: flex;
+
+}
+
+.selection_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     min-height: 67px;
+     margin: 0px 24px 0px 32px;
+    background-color: rgba(255,255,255,1);
+    border-bottom: 1px solid #DDDFE3;
+    align-items: center;
+    
+}
+.selection_bar_left{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.choice_calender{
+    border-right: 1px solid #1953E7;
+    padding-right: 16px;
+
+}
+.select_date_to_date{
+    height: 35px;
+    width: 260px;
+    border:1px solid #EDEAEA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(51, 77, 110, 1);
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    
+}
+.select_date_to_date img{
+    float: left;
+    margin-left: 14px;
+}
+.select_date_to_date label{
+    float: left;
+    margin-left: 26px;
+}
+.to {
+    color: #1954E7;
+    margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  display: inline;
+}
+
+.drapdown{
+    height: 35px;
+    margin-left: 20px;
+    align-items: center;
+    width: 178px;
+    border: 1px solid #EDEAEA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+    color: rgba(51, 77, 110, 1) ;
+    text-align: center;
+    
+    
+}
+
+.drapdown_input{
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 20px;
+    width: 65px;
+    background-color: rgba(25, 83, 231, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.form_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    
+
+}
+.select_item{
+    border: 0;
+    outline: 0;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 2px;
+    color: #334D6E;
+    font-weight: 400;
+}
+
+
+
+.selection_bar_right{
+   
+    float: right;
+    border-radius: 5px;
+    /* border: 1px solid; */
+}
+
+
+
+
+.class_status{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #E5E5E5;
+   
+}
+
+.class_status p{
+    color:rgba(51, 77, 110, 1) ;
+    font-style: normal;
+    font-size: 24px;
+    fill: Solid;
+    letter-spacing: 1%;
+    line-height: 36px;
+    padding-top: 134px;
+    
+}
+.class_status img{
+    margin-bottom: 135px;
+
+}
+.Upcoming_classes{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 1000px) {
+    
+    .drapdown{
+        margin-left: 0px;
+        margin-right: 10px;
+        /* margin-top: 10px; */
+    }
+  
+   
+}
+@media only screen and (max-width: 650px){
+.Show{
+    width: 300px;
+}
+}
+@media only screen and (max-width: 550px){
+   
+    .selection_bar{
+        flex-direction: column;
+        
+    }
+    .selection_bar_left{
+        margin-top: 5px;
+    }
+    .selection_bar_right{
+        width: 300px;
+        margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+    .drapdown{
+        width: 100%;
+    }
+    .drapdown_input{
+        width: 100%;
+        margin-left: 0px;
+    }
+   
+
+
+}
+@media only screen and (max-width: 350px){
+    .button_bar{
+        flex-direction: column;
+}
+.selection_bar_right{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.selection_bar_left{
+    width: 100%;
+    margin-top: 5px;
+}
+}

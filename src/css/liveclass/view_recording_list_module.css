@@ -1,0 +1,60 @@
+.view_recording_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #ECE9E9;;
+}
+.view_recording_list_right button{
+    outline: 0;
+    border: 0;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+.view_lecture_name{
+    font-family: Lato;
+    font-style: normal;
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    margin-bottom: 5px;
+    color: #334D6E;
+}
+.view_lecture_details{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin-bottom: 5px;
+    color: #ACA8A8;
+}
+.view_date{
+    margin-right: 10px;
+}
+.dotdot{
+    margin-right: 10px;
+    font-weight: bold;
+    color: #634E4E;
+}
+.aws_play , .videocipher_play , .vimeo_play i {
+    font-size:25px;
+    color:blue;
+    cursor: pointer;
+    
+}
+.aws_downlode , .videocipher_downlode , .vimeo_downlode{
+    cursor: pointer;
+}
+.disable_button{
+    cursor: not-allowed;
+    
+}
+.disable_button i{
+    font-size:25px;
+    color: #A9A9A9;
+}
